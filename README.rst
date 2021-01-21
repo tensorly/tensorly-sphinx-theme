@@ -2,7 +2,7 @@
 TensorLy Sphinx Theme
 =====================
 
-This is the `TensorLy <tensorly.org>`_ `Sphinx theme <https://www.sphinx-doc.org/en/master/>`_,
+This is the `TensorLy <tensorly.org>`_ theme for `Sphinx <https://www.sphinx-doc.org/en/master/>`_ documentations,
 based on `Bulma <https://bulma.io>`_.
 
 Installation
