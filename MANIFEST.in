@@ -1,4 +1,4 @@
-graft tensorly_sphinx_theme
+recursive-include tensorly_sphinx_theme *
 
 include MANIFEST.ni
 include README.rst

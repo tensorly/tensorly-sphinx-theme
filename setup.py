@@ -51,7 +51,7 @@ config = {
     'author': 'Jean Kossaifi',
     'author_email': 'jean.kossaifi@gmail.com',
     'version': VERSION,
-    'url': 'https://github.com/tensorly/tensorly_sphinx_theme',
+    'url': 'https://github.com/tensorly/tensorly-sphinx-theme',
     'install_requires': ['sphinx'],
     'license': 'Modified BSD',
     'scripts': [],
@@ -63,9 +63,7 @@ config = {
         "Framework :: Sphinx :: Theme",
     ],
     'entry_points': {
-        'sphinx.html_themes': [
-            'tensorly_sphinx_theme = tensorly_sphinx_theme',
-        ]
+        'sphinx.html_themes': ['tensorly_sphinx_theme = tensorly_sphinx_theme']
     },
 }
 setup(**config)
