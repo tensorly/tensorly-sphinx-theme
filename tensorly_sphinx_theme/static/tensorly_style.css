@@ -8264,7 +8264,7 @@ td {
     .py > dt > .property, .py > dt .descname {
       font-weight: 600; }
     .py > dt .sig-param {
-      padding-left: 0.4rem;
+      padding-left: 0.44rem;
       font-family: monospace; }
       .py > dt .sig-param .n {
         color: black; }
