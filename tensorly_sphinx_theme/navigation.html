@@ -8,11 +8,11 @@
             <img src="{{ pathto('_static/' + logo, 1) }}" height="28">
           </a>
 
-          <a class="navbar-item is-hidden-touch is-hidden-desktop" href="{{pathto(master_doc)}}">
+          <!-- <a class="navbar-item is-hidden-desktop" href="{{pathto(master_doc)}}">
             <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
-          </a>
-          {%- if theme_github_repo %}
-          <a class="navbar-item is-hidden-touch is-hidden-desktop" href="{{theme_github_url}}" target="_blank">
+          </a> -->
+          {%- if theme_github_url %}
+          <a class="navbar-item is-hidden-desktop" href="{{theme_github_url}}" target="_blank">
               <span class="icon"><i class="fab fa-github"></i></span>
           </a>
           {%- endif %}
@@ -45,18 +45,33 @@
           </div>
         
           <div class="navbar-end">
-          <!-- LEFT -->
+            <div class="navbar-item">
+            <!-- LEFT -->
 
-            <a class="navbar-item is-hidden-touch" href="{{pathto(master_doc)}}">
+            <!-- <a class="navbar-item is-hidden-touch" href="{{pathto(master_doc)}}">
+              <span class="icon-text">
+                <span class="icon">
+                  <i class="fa fa-home"></i>
+                </span>
+                <span>Home</span>
+              </span>
               <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
-            </a>
-            {%- if theme_github_repo %}
-            <a class="navbar-item is-hidden-touch" href="{{theme_github_url}}" target="_blank">
-                <span class="icon"><i class="fab fa-github"></i></span>
+            </a> -->
+            {%- if theme_github_url %}
+            <a class="button is-hidden-touch is-dark" href="{{theme_github_url}}" target="_blank">
+              <span class="icon-text">
+                <span class="icon is-large">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>Github</span>
+              </span>
+                <!-- <span class="icon"><i class="fab fa-github"></i></span> -->
             </a>
             {%- endif %}
-          </div>
-        </div>
+
+            </div> <!-- navbar item -->
+          </div> <!-- navbar end -->
+        </div> <!-- only large items -->
 
       </nav>
       

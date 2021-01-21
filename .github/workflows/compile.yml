@@ -1,0 +1,29 @@
+name: Make doc
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '12'
+    - name: Install npm
+      run: npm install
+    - name: Compile CSS from SCSS
+      run: npm run css-build
+    - name: Push the compiled css
+      if: success()
+      run: |
+        git add tensorly_sphinx_theme/static/
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions"
+        git diff --quiet && git diff --staged --quiet || git commit -m 'Git workflow: auto update css.'
+        git push origin main

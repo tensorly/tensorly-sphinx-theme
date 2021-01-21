@@ -44,6 +44,7 @@ VERSION = version(root_path)
 config = {
     'name': 'tensorly-sphinx-theme',
     'packages': ['tensorly_sphinx_theme'],
+    'include_package_data': True,
     'description': 'Bulma-based Sphinx theme from the TensorLy project.',
     'long_description': README,
     'long_description_content_type' : 'text/x-rst',
@@ -62,9 +63,9 @@ config = {
         "Framework :: Sphinx :: Theme",
     ],
     'entry_points': {
-            'sphinx.html_themes': [
-                'tensorly_sphinx_theme = tensorly_sphinx_theme',
-            ]
-        },
+        'sphinx.html_themes': [
+            'tensorly_sphinx_theme = tensorly_sphinx_theme',
+        ]
+    },
 }
 setup(**config)

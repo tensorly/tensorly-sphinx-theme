@@ -1,0 +1,13 @@
+graft tensorly_sphinx_theme
+
+include MANIFEST.ni
+include README.rst
+include setup.py
+include tensorly_sphinx_theme/*
+
+global-exclude .gitignore
+global-exclude .git __pycache__
+global-exclude *~
+global-exclude *.py[cod]
+global-exclude .DS_Store
+global-exclude .ipynb_checkpoints
