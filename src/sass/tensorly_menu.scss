@@ -1,0 +1,82 @@
+
+.localtoc {
+    padding: $sidebar-menu-padding;
+}
+.sidebar-menu {
+    padding: $sidebar-menu-padding;
+    font-size: $size-normal;
+    line-height: $sidebar-menu-line-height;
+    background-color: $sidebar-menu-bg-color;
+}
+.menu li {
+    word-wrap: break-word; /* prevent words from continuing after sidebar */
+}
+.sidebar-menu-toc {
+    li {
+        word-wrap: break-word; /* prevent words from continuing after sidebar */
+        a {
+            display: block;
+            padding: 0.5em;
+        }
+        &.toctree-l1 {
+            a {
+                color: lightgray;
+                font-size: 1.1em;
+                font-weight: bold;
+                padding: 0.4em 0.4em 0.4em 1em;
+            
+                &:hover {
+                    color: #e6e6e6;
+                    background-color: #afafaf;
+                }
+            }
+            &.show, &.current {
+                > a {
+                    color: #404040;
+                    position: relative;
+                    background: #fcfcfc;
+                    border: none;
+                }
+            }
+        }
+        &.toctree-l2 {
+            a{
+                color: #4e4e4e;
+                background-color: lightgray;
+                font-size: 0.9em;
+                font-weight: bold;
+                padding: 0.4em 0.4em 0.4em 2em;
+                list-style-type: circle;
+                &:hover {
+                    color: #e6e6e6;
+                }
+                &.current {
+                    background-color: #848484;
+                    color: #e6e6e6;
+                }
+            }
+            // &.show {display: block!important;}
+        }
+        &.toctree-l3 {
+            code {
+                display: none;
+            }
+            a {
+                color: #4e4e4e;
+                background-color: #afafaf;
+                font-size: 0.8em;
+                font-weight: bold;
+                padding: 0.4em 0.4em 0.4em 5em;
+                list-style-type: circle;
+
+                &.current &.show {
+                    color: black;
+                }
+            }
+        }
+    }    
+    ul {
+        width: 100%;
+        list-style-type: none;
+    }
+}

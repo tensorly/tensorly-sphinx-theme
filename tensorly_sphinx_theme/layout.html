@@ -1,0 +1,104 @@
+{%- extends "basic/layout.html" %}
+
+{% block css %} 
+<link rel="stylesheet" href="{{ pathto('_static/tensorly_style.css', 1) }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ pathto('_static/favicon/apple-touch-icon.png', 1)}}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ pathto('_static/favicon/favicon-32x32.png', 1)}}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ pathto('_static/favicon/favicon-16x16.png', 1)}}">
+<link rel="manifest" href="{{ pathto('_static/favicon/site.webmanifest', 1)}}">
+<link rel="mask-icon" href="{{ pathto('_static/favicon/safari-pinned-tab.svg', 1)}}" color="#5bbad5">
+<link rel="shortcut icon" href="{{ pathto('_static/favicon/favicon.ico', 1)}}">
+<meta name="theme-color" content="#ffffff">
+{{ super() }}
+{% endblock %}
+
+{%- block scripts %}
+  {{ super() }}
+ <script src="{{ pathto('_static/navbar_burger.js', 1) }}"></script>
+ <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+ {% include 'analytics.html' %}
+{%- endblock scripts %}
+
+{% block extrahead %}
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+{% endblock %}
+
+{# Silence the sidebar's, relbar's #}
+{% block relbar1 %}{% endblock %}
+{% block relbar2 %}{% endblock %}
+{% block sidebarsourcelink %}{% endblock %}
+
+{% block body_tag %}
+<body  class="has-navbar-fixed-top">
+{% endblock body_tag %}
+
+{% block header %}
+{% include 'navigation.html' %}
+{% endblock header %}
+
+
+{% block content %}
+  <div id="column-container">
+  <div class="columns is-mobile is-centered">
+  {% if not (meta is not none and 'no-toc' in meta) %}    
+    {# Menu side navbar #}
+    {%- include "sidebar-menu.html" %}
+  {% endif %}
+
+    <div class="column main-column">
+
+      <!-- Main content  -->
+      <section class="main-content">
+
+        <!-- Toggle menu button -->
+        {% if not (meta is not none and 'no-toc' in meta) %}    
+        <div class="side-menu-toggle">
+          <button class="button" id="toggle-sidebar" onclick="toggle_sidebar()">
+            <span class="icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+            <span>menu</span> 
+          </button>
+        </div>
+        {% endif %}
+
+        <div class="content">
+          {% block body %}
+          {% endblock %}
+        </div>
+
+        {% if not (meta is not none and 'no-pagination' in meta) %}    
+        {% include 'pagination.html' %}
+        {% endif %}
+
+      </section>
+
+      {% include 'footer.html' %}
+
+    </div>
+
+    {% if not (meta is not none and 'no-localtoc' in meta) %}    
+    {% include 'localtoc.html' %}
+    {% endif %}
+
+  </div>
+  </div>
+
+  <!-- Include here scripts that need to be added after the page is loaded -->
+  <script>
+    function toggle_sidebar() {
+        var element = document.getElementById("sidebar");
+        var container = document.getElementById("column-container");
+        var localtoccolumn = document.getElementById("localtoc-column");
+        element.classList.toggle("hide-tablet");
+        element.classList.toggle("is-hidden-mobile");
+        container.classList.toggle("sidemenu-hidden");
+        localtoccolumn.classList.toggle("is-one-fifth-widescreen");
+        localtoccolumn.classList.toggle("is-2-desktop");
+        localtoccolumn.classList.toggle("is-3-desktop");
+    }
+  </script> 
+
+{% endblock content %}
+
+{% block footer %}
+{% endblock footer %}
+

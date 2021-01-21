@@ -1,0 +1,19 @@
+<nav class="pagination" role="navigation" aria-label="pagination">
+    {% if prev %}
+    <a class="button is-medium pagination-previous" href="{{ prev.link|e }}" title="{{ _('previous chapter') }}" accesskey="p">
+        <span class="icon">
+            <i class="fa fa-arrow-circle-left"></i>
+        </span>
+        <span>{{ prev.title }}</span>
+    </a>
+    {% endif %}
+    {% if next %}
+    <a class="button is-medium pagination-next" href="{{ next.link|e }}" title="{{ _('next chapter') }}" accesskey="n">
+        <span>{{ next.title }} </span>
+        <span class="icon">
+            <i class="fa fa-arrow-circle-right"></i>
+        </span>
+    </a>
+    {% endif %}
+</nav>
+

@@ -1,0 +1,18 @@
+  <footer class="footer">
+    <div class="content has-text-centered">
+      {%- if show_copyright %}
+        <div class="block">
+        {%- if hasdoc('copyright') %}
+          {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}<br/>
+        {%- else %}
+          {% trans copyright=copyright|e %}&copy; Copyright {{ copyright }}.{% endtrans %}<br/>
+        {%- endif %}
+        </div>
+      {%- endif %}
+      {%- if show_sphinx %}
+      <div class="block">
+        Created using <a href="http://sphinx-doc.org/">Sphinx</a> and the <a href="tensorly.org"><strong>TensorLy</strong></a> theme by <a href="jeankossaifi.com">Jean Kossaifi</a>.
+      </div>
+      {%- endif %}
+    </div>
+  </footer>

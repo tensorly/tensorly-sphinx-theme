@@ -1,0 +1,26 @@
+{
+  "name": "tensorly_sphinx_theme",
+  "version": "0.1.0",
+  "description": "TensorLy Sphinx Theme.",
+  "main": "src/sass/tensorly_style.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url src/sass/tensorly_style.scss tensorly_sphinx_theme/static/tensorly_style.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "keywords": [
+    "TensorLy",
+    "Bulma",
+    "Python",
+    "Sphinx",
+    "Theme",
+    "TensorLy-Torch"
+  ],
+  "author": "Jean Kossaifi",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.9.1",
+    "node-sass": "^5.0.0"
+  }
+}

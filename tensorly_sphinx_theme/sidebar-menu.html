@@ -1,0 +1,10 @@
+  <div class="column is-10-mobile is-one-third-tablet is-3-desktop is-hidden-mobile" id="sidebar">
+    <!-- Side menu  -->
+    <aside class="sticky-nav sidebar-menu">
+      {%- include "searchbox.html" %}
+      
+      <div class="sidebar-menu-toc">
+      {{ toctree(includehidden=theme_globaltoc_includehidden, collapse=theme_globaltoc_collapse, maxdepth=theme_globaltoc_maxdepth|int) }} 
+      </div>
+    </aside>
+  </div>
