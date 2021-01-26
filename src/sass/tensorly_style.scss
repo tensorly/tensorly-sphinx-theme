@@ -104,8 +104,13 @@ $sidebar-menu-padding: 2em 0em 1em 0em; // top right bottom left
 .main-column {
     min-width: 0;
 }
+.main-content {
+    padding: 0.5em;
+}
 body {
-    overflow-wrap: break-word;
+    @include from($tablet) {
+        overflow-wrap: break-word;
+    }
 }
 
 // Side bar
@@ -285,6 +290,10 @@ td {
 
 .highlight {
     margin-bottom: 1em;
+}
+// Search results
+.highlighted {
+    background-color: $warning;
 }
 
 blockquote { 

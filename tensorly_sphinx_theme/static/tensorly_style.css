@@ -8140,8 +8140,12 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .main-column {
   min-width: 0; }
 
-body {
-  overflow-wrap: break-word; }
+.main-content {
+  padding: 0.5em; }
+
+@media screen and (min-width: 769px) {
+  body {
+    overflow-wrap: break-word; } }
 
 .side-menu-toggle {
   position: fixed !important;
@@ -8279,6 +8283,9 @@ td {
 
 .highlight {
   margin-bottom: 1em; }
+
+.highlighted {
+  background-color: #ffdd57; }
 
 blockquote {
   margin: 1rem; }

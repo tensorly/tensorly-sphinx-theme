@@ -48,7 +48,7 @@
     <div class="column main-column">
 
       <!-- Main content  -->
-      <section class="main-content">
+      <section class="main-section">
 
         <!-- Toggle menu button -->
         {% if not (meta is not none and 'no-toc' in meta) %}    
@@ -60,7 +60,7 @@
         </div>
         {% endif %}
 
-        <div class="content">
+        <div class="content main-content">
           {% block body %}
           {% endblock %}
         </div>
