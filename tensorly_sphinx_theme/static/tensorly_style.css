@@ -8141,11 +8141,11 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   min-width: 0; }
 
 .main-content {
-  padding: 0.5em; }
+  padding: 0.5em;
+  padding-left: 1rem; }
 
-@media screen and (min-width: 769px) {
-  body {
-    overflow-wrap: break-word; } }
+body {
+  overflow-wrap: break-word; }
 
 .side-menu-toggle {
   position: fixed !important;
@@ -8227,6 +8227,17 @@ td {
     overflow-wrap: break-word; }
   td {
     overflow-wrap: break-word; } }
+
+code {
+  background: transparent; }
+
+@media screen and (max-width: 768px) {
+  div.section {
+    padding: 1rem 0.5rem; } }
+
+@media screen and (min-width: 769px) {
+  div.section {
+    padding: 2rem 1rem; } }
 
 .py {
   margin-top: 2.5em; }

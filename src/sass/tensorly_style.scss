@@ -106,11 +106,10 @@ $sidebar-menu-padding: 2em 0em 1em 0em; // top right bottom left
 }
 .main-content {
     padding: 0.5em;
+	padding-left: 1rem;
 }
 body {
-    @include from($tablet) {
-        overflow-wrap: break-word;
-    }
+	overflow-wrap: break-word;
 }
 
 // Side bar
@@ -226,6 +225,17 @@ td {
 	td {
       overflow-wrap: break-word;
   }
+}
+code {background: transparent;}
+@include until($tablet) {
+	div.section { 
+		padding: 1rem 0.5rem;
+	}
+}
+@include from($tablet) {
+	div.section { 
+		padding: 2rem 1rem;
+	}
 }
 
 // Doc: functions
