@@ -40,7 +40,7 @@
 {% block content %}
   <div id="column-container">
   <div class="columns is-mobile is-centered">
-  {% if not (meta is not none and 'no-toc' in meta) %}    
+	{% if  meta is defined and not (meta is not none and 'no-toc' in meta) %}
     {# Menu side navbar #}
     {%- include "sidebar-menu.html" %}
   {% endif %}
@@ -51,7 +51,7 @@
       <section class="main-section">
 
         <!-- Toggle menu button -->
-        {% if not (meta is not none and 'no-toc' in meta) %}    
+		{% if  meta is defined and not (meta is not none and 'no-toc' in meta) %}
         <div class="side-menu-toggle">
           <button class="button" id="toggle-sidebar" onclick="toggle_sidebar()">
             <span class="icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
@@ -65,7 +65,7 @@
           {% endblock %}
         </div>
 
-        {% if not (meta is not none and 'no-pagination' in meta) %}    
+		{% if  meta is defined and not (meta is not none and 'no-pagination' in meta) %}
         {% include 'pagination.html' %}
         {% endif %}
 
@@ -75,7 +75,7 @@
 
     </div>
 
-    {% if not (meta is not none and 'no-localtoc' in meta) %}    
+	{% if  meta is defined and not (meta is not none and 'no-localtoc' in meta) %}
     {% include 'localtoc.html' %}
     {% endif %}
 
