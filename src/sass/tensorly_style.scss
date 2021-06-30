@@ -208,6 +208,17 @@ span.brackets {
 .warning { @extend .is-warning;}
 .info { @extend .is-info;}
 
+.versionchanged {
+	@extend .message;
+	&>p {
+		@extend .message-body;
+		@extend .is-warning;
+		> span {
+			  font-style: italic;
+		}
+	}
+}
+
 // API table
 td {
 	display: table-cell!important;
@@ -265,7 +276,7 @@ code {
         & > dd {
             border-bottom: 1px solid darkgrey;
             // &:first-child {border-top: 1px solid darkgrey;}
-            //margin: 0;
+            margin: 0;
             padding-bottom: 0;
         }
     }
