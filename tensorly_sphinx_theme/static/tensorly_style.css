@@ -1,91 +1,91 @@
-	/*! bulma.io v0.9.3 | MIT License | github.com/jgthms/bulma */
-	/* Bulma Utilities */
-	.button, .input, .textarea, .select select, .file-cta,
-	.file-name, .pagination-previous,
-	.pagination-next,
-	.pagination-link,
-	.pagination-ellipsis {
-	  -moz-appearance: none;
-	  -webkit-appearance: none;
-	  align-items: center;
-	  border: 1px solid transparent;
-	  border-radius: 4px;
-	  box-shadow: none;
-	  display: inline-flex;
-	  font-size: 1rem;
-	  height: 2.5em;
-	  justify-content: flex-start;
-	  line-height: 1.5;
-	  padding-bottom: calc(0.5em - 1px);
-	  padding-left: calc(0.75em - 1px);
-	  padding-right: calc(0.75em - 1px);
-	  padding-top: calc(0.5em - 1px);
-	  position: relative;
-	  vertical-align: top; }
-	  .button:focus, .input:focus, .textarea:focus, .select select:focus, .file-cta:focus,
-	  .file-name:focus, .pagination-previous:focus,
-	  .pagination-next:focus,
-	  .pagination-link:focus,
-	  .pagination-ellipsis:focus, .is-focused.button, .is-focused.input, .is-focused.textarea, .select select.is-focused, .is-focused.file-cta,
-	  .is-focused.file-name, .is-focused.pagination-previous,
-	  .is-focused.pagination-next,
-	  .is-focused.pagination-link,
-	  .is-focused.pagination-ellipsis, .button:active, .input:active, .textarea:active, .select select:active, .file-cta:active,
-	  .file-name:active, .pagination-previous:active,
-	  .pagination-next:active,
-	  .pagination-link:active,
-	  .pagination-ellipsis:active, .is-active.button, .is-active.input, .is-active.textarea, .select select.is-active, .is-active.file-cta,
-	  .is-active.file-name, .is-active.pagination-previous,
-	  .is-active.pagination-next,
-	  .is-active.pagination-link,
-	  .is-active.pagination-ellipsis {
-		outline: none; }
-	  .button[disabled], .input[disabled], .textarea[disabled], .select select[disabled], .file-cta[disabled],
-	  .file-name[disabled], .pagination-previous[disabled],
-	  .pagination-next[disabled],
-	  .pagination-link[disabled],
-	  .pagination-ellipsis[disabled],
-	  fieldset[disabled] .button,
-	  fieldset[disabled] .input,
-	  fieldset[disabled] .textarea,
-	  fieldset[disabled] .select select,
-	  .select fieldset[disabled] select,
-	  fieldset[disabled] .file-cta,
-	  fieldset[disabled] .file-name,
-	  fieldset[disabled] .pagination-previous,
-	  fieldset[disabled] .pagination-next,
-	  fieldset[disabled] .pagination-link,
-	  fieldset[disabled] .pagination-ellipsis {
-		cursor: not-allowed; }
+/*! bulma.io v0.9.3 | MIT License | github.com/jgthms/bulma */
+/* Bulma Utilities */
+.button, .input, .textarea, .select select, .file-cta,
+.file-name, .pagination-previous,
+.pagination-next,
+.pagination-link,
+.pagination-ellipsis {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: none;
+  display: inline-flex;
+  font-size: 1rem;
+  height: 2.5em;
+  justify-content: flex-start;
+  line-height: 1.5;
+  padding-bottom: calc(0.5em - 1px);
+  padding-left: calc(0.75em - 1px);
+  padding-right: calc(0.75em - 1px);
+  padding-top: calc(0.5em - 1px);
+  position: relative;
+  vertical-align: top; }
+  .button:focus, .input:focus, .textarea:focus, .select select:focus, .file-cta:focus,
+  .file-name:focus, .pagination-previous:focus,
+  .pagination-next:focus,
+  .pagination-link:focus,
+  .pagination-ellipsis:focus, .is-focused.button, .is-focused.input, .is-focused.textarea, .select select.is-focused, .is-focused.file-cta,
+  .is-focused.file-name, .is-focused.pagination-previous,
+  .is-focused.pagination-next,
+  .is-focused.pagination-link,
+  .is-focused.pagination-ellipsis, .button:active, .input:active, .textarea:active, .select select:active, .file-cta:active,
+  .file-name:active, .pagination-previous:active,
+  .pagination-next:active,
+  .pagination-link:active,
+  .pagination-ellipsis:active, .is-active.button, .is-active.input, .is-active.textarea, .select select.is-active, .is-active.file-cta,
+  .is-active.file-name, .is-active.pagination-previous,
+  .is-active.pagination-next,
+  .is-active.pagination-link,
+  .is-active.pagination-ellipsis {
+    outline: none; }
+  .button[disabled], .input[disabled], .textarea[disabled], .select select[disabled], .file-cta[disabled],
+  .file-name[disabled], .pagination-previous[disabled],
+  .pagination-next[disabled],
+  .pagination-link[disabled],
+  .pagination-ellipsis[disabled],
+  fieldset[disabled] .button,
+  fieldset[disabled] .input,
+  fieldset[disabled] .textarea,
+  fieldset[disabled] .select select,
+  .select fieldset[disabled] select,
+  fieldset[disabled] .file-cta,
+  fieldset[disabled] .file-name,
+  fieldset[disabled] .pagination-previous,
+  fieldset[disabled] .pagination-next,
+  fieldset[disabled] .pagination-link,
+  fieldset[disabled] .pagination-ellipsis {
+    cursor: not-allowed; }
 
-	.button, .file, .breadcrumb, .pagination-previous,
-	.pagination-next,
-	.pagination-link,
-	.pagination-ellipsis, .tabs, .is-unselectable {
-	  -webkit-touch-callout: none;
-	  -webkit-user-select: none;
-	  -moz-user-select: none;
-	  -ms-user-select: none;
-	  user-select: none; }
+.button, .file, .breadcrumb, .pagination-previous,
+.pagination-next,
+.pagination-link,
+.pagination-ellipsis, .tabs, .is-unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
 
-	.select:not(.is-multiple):not(.is-loading)::after, .navbar-link:not(.is-arrowless)::after {
-	  border: 3px solid transparent;
-	  border-radius: 2px;
-	  border-right: 0;
-	  border-top: 0;
-	  content: " ";
-	  display: block;
-	  height: 0.625em;
-	  margin-top: -0.4375em;
-	  pointer-events: none;
-	  position: absolute;
-	  top: 50%;
-	  transform: rotate(-45deg);
-	  transform-origin: center;
-	  width: 0.625em; }
+.select:not(.is-multiple):not(.is-loading)::after, .navbar-link:not(.is-arrowless)::after {
+  border: 3px solid transparent;
+  border-radius: 2px;
+  border-right: 0;
+  border-top: 0;
+  content: " ";
+  display: block;
+  height: 0.625em;
+  margin-top: -0.4375em;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  transform: rotate(-45deg);
+  transform-origin: center;
+  width: 0.625em; }
 
-	.box:not(:last-child), .content:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .table:not(:last-child), .table-container:not(:last-child), .title:not(:last-child),
-	.subtitle:not(:last-child), .block:not(:last-child), .breadcrumb:not(:last-child), .level:not(:last-child), .message:not(:last-child), .admonition:not(:last-child), blockquote:not(:last-child), .pagination:not(:last-child), .tabs:not(:last-child) {
+.box:not(:last-child), .content:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .table:not(:last-child), .table-container:not(:last-child), .title:not(:last-child),
+.subtitle:not(:last-child), .block:not(:last-child), .breadcrumb:not(:last-child), .level:not(:last-child), .message:not(:last-child), .admonition:not(:last-child), .versionchanged:not(:last-child), blockquote:not(:last-child), .pagination:not(:last-child), .tabs:not(:last-child) {
   margin-bottom: 1.5rem; }
 
 .delete, .modal-close {
@@ -1077,63 +1077,36 @@ a.box:active {
       .button.is-success.is-light:active, .button.is-success.is-light.is-active {
         background-color: #dcf4e9;
         border-color: transparent;
-<<<<<<< HEAD
-        color: #257942; }
-  .button.is-warning, .button.caution, .button.warning, .versionchanged > p.button {
-    background-color: #ffdd57;
-    border-color: transparent;
-    color: rgba(0, 0, 0, 0.7); }
-    .button.is-warning:hover, .button.caution:hover, .button.warning:hover, .versionchanged > p.button:hover, .button.is-warning.is-hovered, .button.is-hovered.caution, .button.is-hovered.warning, .versionchanged > p.button.is-hovered {
-      background-color: #ffdb4a;
-=======
         color: #257953; }
-  .button.is-warning, .button.caution, .button.warning {
+  .button.is-warning, .button.caution, .button.warning, .versionchanged > p.button {
     background-color: #ffe08a;
     border-color: transparent;
     color: rgba(0, 0, 0, 0.7); }
-    .button.is-warning:hover, .button.caution:hover, .button.warning:hover, .button.is-warning.is-hovered, .button.is-hovered.caution, .button.is-hovered.warning {
+    .button.is-warning:hover, .button.caution:hover, .button.warning:hover, .versionchanged > p.button:hover, .button.is-warning.is-hovered, .button.is-hovered.caution, .button.is-hovered.warning, .versionchanged > p.button.is-hovered {
       background-color: #ffdc7d;
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
       border-color: transparent;
       color: rgba(0, 0, 0, 0.7); }
     .button.is-warning:focus, .button.caution:focus, .button.warning:focus, .versionchanged > p.button:focus, .button.is-warning.is-focused, .button.is-focused.caution, .button.is-focused.warning, .versionchanged > p.button.is-focused {
       border-color: transparent;
       color: rgba(0, 0, 0, 0.7); }
-<<<<<<< HEAD
       .button.is-warning:focus:not(:active), .button.caution:focus:not(:active), .button.warning:focus:not(:active), .versionchanged > p.button:focus:not(:active), .button.is-warning.is-focused:not(:active), .button.is-focused.caution:not(:active), .button.is-focused.warning:not(:active), .versionchanged > p.button.is-focused:not(:active) {
-        box-shadow: 0 0 0 0.125em rgba(255, 221, 87, 0.25); }
-    .button.is-warning:active, .button.caution:active, .button.warning:active, .versionchanged > p.button:active, .button.is-warning.is-active, .button.is-active.caution, .button.is-active.warning, .versionchanged > p.button.is-active {
-      background-color: #ffd83d;
-=======
-      .button.is-warning:focus:not(:active), .button.caution:focus:not(:active), .button.warning:focus:not(:active), .button.is-warning.is-focused:not(:active), .button.is-focused.caution:not(:active), .button.is-focused.warning:not(:active) {
         box-shadow: 0 0 0 0.125em rgba(255, 224, 138, 0.25); }
-    .button.is-warning:active, .button.caution:active, .button.warning:active, .button.is-warning.is-active, .button.is-active.caution, .button.is-active.warning {
+    .button.is-warning:active, .button.caution:active, .button.warning:active, .versionchanged > p.button:active, .button.is-warning.is-active, .button.is-active.caution, .button.is-active.warning, .versionchanged > p.button.is-active {
       background-color: #ffd970;
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
       border-color: transparent;
       color: rgba(0, 0, 0, 0.7); }
     .button.is-warning[disabled], .button.caution[disabled], .button.warning[disabled], .versionchanged > p.button[disabled],
     fieldset[disabled] .button.is-warning,
     fieldset[disabled] .button.caution,
-<<<<<<< HEAD
     fieldset[disabled] .button.warning,
     fieldset[disabled] .versionchanged > p.button {
-      background-color: #ffdd57;
-=======
-    fieldset[disabled] .button.warning {
       background-color: #ffe08a;
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
       border-color: transparent;
       box-shadow: none; }
     .button.is-warning.is-inverted, .button.is-inverted.caution, .button.is-inverted.warning, .versionchanged > p.button.is-inverted {
       background-color: rgba(0, 0, 0, 0.7);
-<<<<<<< HEAD
-      color: #ffdd57; }
-      .button.is-warning.is-inverted:hover, .button.is-inverted.caution:hover, .button.is-inverted.warning:hover, .versionchanged > p.button.is-inverted:hover, .button.is-warning.is-inverted.is-hovered, .button.is-inverted.is-hovered.caution, .button.is-inverted.is-hovered.warning, .versionchanged > p.button.is-inverted.is-hovered {
-=======
       color: #ffe08a; }
-      .button.is-warning.is-inverted:hover, .button.is-inverted.caution:hover, .button.is-inverted.warning:hover, .button.is-warning.is-inverted.is-hovered, .button.is-inverted.is-hovered.caution, .button.is-inverted.is-hovered.warning {
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
+      .button.is-warning.is-inverted:hover, .button.is-inverted.caution:hover, .button.is-inverted.warning:hover, .versionchanged > p.button.is-inverted:hover, .button.is-warning.is-inverted.is-hovered, .button.is-inverted.is-hovered.caution, .button.is-inverted.is-hovered.warning, .versionchanged > p.button.is-inverted.is-hovered {
         background-color: rgba(0, 0, 0, 0.7); }
       .button.is-warning.is-inverted[disabled], .button.is-inverted.caution[disabled], .button.is-inverted.warning[disabled], .versionchanged > p.button.is-inverted[disabled],
       fieldset[disabled] .button.is-warning.is-inverted,
@@ -1143,37 +1116,20 @@ a.box:active {
         background-color: rgba(0, 0, 0, 0.7);
         border-color: transparent;
         box-shadow: none;
-<<<<<<< HEAD
-        color: #ffdd57; }
-    .button.is-warning.is-loading::after, .button.is-loading.caution::after, .button.is-loading.warning::after, .versionchanged > p.button.is-loading::after {
-=======
         color: #ffe08a; }
-    .button.is-warning.is-loading::after, .button.is-loading.caution::after, .button.is-loading.warning::after {
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
+    .button.is-warning.is-loading::after, .button.is-loading.caution::after, .button.is-loading.warning::after, .versionchanged > p.button.is-loading::after {
       border-color: transparent transparent rgba(0, 0, 0, 0.7) rgba(0, 0, 0, 0.7) !important; }
     .button.is-warning.is-outlined, .button.is-outlined.caution, .button.is-outlined.warning, .versionchanged > p.button.is-outlined {
       background-color: transparent;
-<<<<<<< HEAD
-      border-color: #ffdd57;
-      color: #ffdd57; }
-      .button.is-warning.is-outlined:hover, .button.is-outlined.caution:hover, .button.is-outlined.warning:hover, .versionchanged > p.button.is-outlined:hover, .button.is-warning.is-outlined.is-hovered, .button.is-outlined.is-hovered.caution, .button.is-outlined.is-hovered.warning, .versionchanged > p.button.is-outlined.is-hovered, .button.is-warning.is-outlined:focus, .button.is-outlined.caution:focus, .button.is-outlined.warning:focus, .versionchanged > p.button.is-outlined:focus, .button.is-warning.is-outlined.is-focused, .button.is-outlined.is-focused.caution, .button.is-outlined.is-focused.warning, .versionchanged > p.button.is-outlined.is-focused {
-        background-color: #ffdd57;
-        border-color: #ffdd57;
-        color: rgba(0, 0, 0, 0.7); }
-      .button.is-warning.is-outlined.is-loading::after, .button.is-outlined.is-loading.caution::after, .button.is-outlined.is-loading.warning::after, .versionchanged > p.button.is-outlined.is-loading::after {
-        border-color: transparent transparent #ffdd57 #ffdd57 !important; }
-      .button.is-warning.is-outlined.is-loading:hover::after, .button.is-outlined.is-loading.caution:hover::after, .button.is-outlined.is-loading.warning:hover::after, .versionchanged > p.button.is-outlined.is-loading:hover::after, .button.is-warning.is-outlined.is-loading.is-hovered::after, .button.is-outlined.is-loading.is-hovered.caution::after, .button.is-outlined.is-loading.is-hovered.warning::after, .versionchanged > p.button.is-outlined.is-loading.is-hovered::after, .button.is-warning.is-outlined.is-loading:focus::after, .button.is-outlined.is-loading.caution:focus::after, .button.is-outlined.is-loading.warning:focus::after, .versionchanged > p.button.is-outlined.is-loading:focus::after, .button.is-warning.is-outlined.is-loading.is-focused::after, .button.is-outlined.is-loading.is-focused.caution::after, .button.is-outlined.is-loading.is-focused.warning::after, .versionchanged > p.button.is-outlined.is-loading.is-focused::after {
-=======
       border-color: #ffe08a;
       color: #ffe08a; }
-      .button.is-warning.is-outlined:hover, .button.is-outlined.caution:hover, .button.is-outlined.warning:hover, .button.is-warning.is-outlined.is-hovered, .button.is-outlined.is-hovered.caution, .button.is-outlined.is-hovered.warning, .button.is-warning.is-outlined:focus, .button.is-outlined.caution:focus, .button.is-outlined.warning:focus, .button.is-warning.is-outlined.is-focused, .button.is-outlined.is-focused.caution, .button.is-outlined.is-focused.warning {
+      .button.is-warning.is-outlined:hover, .button.is-outlined.caution:hover, .button.is-outlined.warning:hover, .versionchanged > p.button.is-outlined:hover, .button.is-warning.is-outlined.is-hovered, .button.is-outlined.is-hovered.caution, .button.is-outlined.is-hovered.warning, .versionchanged > p.button.is-outlined.is-hovered, .button.is-warning.is-outlined:focus, .button.is-outlined.caution:focus, .button.is-outlined.warning:focus, .versionchanged > p.button.is-outlined:focus, .button.is-warning.is-outlined.is-focused, .button.is-outlined.is-focused.caution, .button.is-outlined.is-focused.warning, .versionchanged > p.button.is-outlined.is-focused {
         background-color: #ffe08a;
         border-color: #ffe08a;
         color: rgba(0, 0, 0, 0.7); }
-      .button.is-warning.is-outlined.is-loading::after, .button.is-outlined.is-loading.caution::after, .button.is-outlined.is-loading.warning::after {
+      .button.is-warning.is-outlined.is-loading::after, .button.is-outlined.is-loading.caution::after, .button.is-outlined.is-loading.warning::after, .versionchanged > p.button.is-outlined.is-loading::after {
         border-color: transparent transparent #ffe08a #ffe08a !important; }
-      .button.is-warning.is-outlined.is-loading:hover::after, .button.is-outlined.is-loading.caution:hover::after, .button.is-outlined.is-loading.warning:hover::after, .button.is-warning.is-outlined.is-loading.is-hovered::after, .button.is-outlined.is-loading.is-hovered.caution::after, .button.is-outlined.is-loading.is-hovered.warning::after, .button.is-warning.is-outlined.is-loading:focus::after, .button.is-outlined.is-loading.caution:focus::after, .button.is-outlined.is-loading.warning:focus::after, .button.is-warning.is-outlined.is-loading.is-focused::after, .button.is-outlined.is-loading.is-focused.caution::after, .button.is-outlined.is-loading.is-focused.warning::after {
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
+      .button.is-warning.is-outlined.is-loading:hover::after, .button.is-outlined.is-loading.caution:hover::after, .button.is-outlined.is-loading.warning:hover::after, .versionchanged > p.button.is-outlined.is-loading:hover::after, .button.is-warning.is-outlined.is-loading.is-hovered::after, .button.is-outlined.is-loading.is-hovered.caution::after, .button.is-outlined.is-loading.is-hovered.warning::after, .versionchanged > p.button.is-outlined.is-loading.is-hovered::after, .button.is-warning.is-outlined.is-loading:focus::after, .button.is-outlined.is-loading.caution:focus::after, .button.is-outlined.is-loading.warning:focus::after, .versionchanged > p.button.is-outlined.is-loading:focus::after, .button.is-warning.is-outlined.is-loading.is-focused::after, .button.is-outlined.is-loading.is-focused.caution::after, .button.is-outlined.is-loading.is-focused.warning::after, .versionchanged > p.button.is-outlined.is-loading.is-focused::after {
         border-color: transparent transparent rgba(0, 0, 0, 0.7) rgba(0, 0, 0, 0.7) !important; }
       .button.is-warning.is-outlined[disabled], .button.is-outlined.caution[disabled], .button.is-outlined.warning[disabled], .versionchanged > p.button.is-outlined[disabled],
       fieldset[disabled] .button.is-warning.is-outlined,
@@ -1183,29 +1139,17 @@ a.box:active {
         background-color: transparent;
         border-color: #ffe08a;
         box-shadow: none;
-<<<<<<< HEAD
-        color: #ffdd57; }
-    .button.is-warning.is-inverted.is-outlined, .button.is-inverted.is-outlined.caution, .button.is-inverted.is-outlined.warning, .versionchanged > p.button.is-inverted.is-outlined {
-=======
         color: #ffe08a; }
-    .button.is-warning.is-inverted.is-outlined, .button.is-inverted.is-outlined.caution, .button.is-inverted.is-outlined.warning {
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
+    .button.is-warning.is-inverted.is-outlined, .button.is-inverted.is-outlined.caution, .button.is-inverted.is-outlined.warning, .versionchanged > p.button.is-inverted.is-outlined {
       background-color: transparent;
       border-color: rgba(0, 0, 0, 0.7);
       color: rgba(0, 0, 0, 0.7); }
       .button.is-warning.is-inverted.is-outlined:hover, .button.is-inverted.is-outlined.caution:hover, .button.is-inverted.is-outlined.warning:hover, .versionchanged > p.button.is-inverted.is-outlined:hover, .button.is-warning.is-inverted.is-outlined.is-hovered, .button.is-inverted.is-outlined.is-hovered.caution, .button.is-inverted.is-outlined.is-hovered.warning, .versionchanged > p.button.is-inverted.is-outlined.is-hovered, .button.is-warning.is-inverted.is-outlined:focus, .button.is-inverted.is-outlined.caution:focus, .button.is-inverted.is-outlined.warning:focus, .versionchanged > p.button.is-inverted.is-outlined:focus, .button.is-warning.is-inverted.is-outlined.is-focused, .button.is-inverted.is-outlined.is-focused.caution, .button.is-inverted.is-outlined.is-focused.warning, .versionchanged > p.button.is-inverted.is-outlined.is-focused {
         background-color: rgba(0, 0, 0, 0.7);
-<<<<<<< HEAD
-        color: #ffdd57; }
-      .button.is-warning.is-inverted.is-outlined.is-loading:hover::after, .button.is-inverted.is-outlined.is-loading.caution:hover::after, .button.is-inverted.is-outlined.is-loading.warning:hover::after, .versionchanged > p.button.is-inverted.is-outlined.is-loading:hover::after, .button.is-warning.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-inverted.is-outlined.is-loading.is-hovered.caution::after, .button.is-inverted.is-outlined.is-loading.is-hovered.warning::after, .versionchanged > p.button.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-warning.is-inverted.is-outlined.is-loading:focus::after, .button.is-inverted.is-outlined.is-loading.caution:focus::after, .button.is-inverted.is-outlined.is-loading.warning:focus::after, .versionchanged > p.button.is-inverted.is-outlined.is-loading:focus::after, .button.is-warning.is-inverted.is-outlined.is-loading.is-focused::after, .button.is-inverted.is-outlined.is-loading.is-focused.caution::after, .button.is-inverted.is-outlined.is-loading.is-focused.warning::after, .versionchanged > p.button.is-inverted.is-outlined.is-loading.is-focused::after {
-        border-color: transparent transparent #ffdd57 #ffdd57 !important; }
-      .button.is-warning.is-inverted.is-outlined[disabled], .button.is-inverted.is-outlined.caution[disabled], .button.is-inverted.is-outlined.warning[disabled], .versionchanged > p.button.is-inverted.is-outlined[disabled],
-=======
         color: #ffe08a; }
-      .button.is-warning.is-inverted.is-outlined.is-loading:hover::after, .button.is-inverted.is-outlined.is-loading.caution:hover::after, .button.is-inverted.is-outlined.is-loading.warning:hover::after, .button.is-warning.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-inverted.is-outlined.is-loading.is-hovered.caution::after, .button.is-inverted.is-outlined.is-loading.is-hovered.warning::after, .button.is-warning.is-inverted.is-outlined.is-loading:focus::after, .button.is-inverted.is-outlined.is-loading.caution:focus::after, .button.is-inverted.is-outlined.is-loading.warning:focus::after, .button.is-warning.is-inverted.is-outlined.is-loading.is-focused::after, .button.is-inverted.is-outlined.is-loading.is-focused.caution::after, .button.is-inverted.is-outlined.is-loading.is-focused.warning::after {
+      .button.is-warning.is-inverted.is-outlined.is-loading:hover::after, .button.is-inverted.is-outlined.is-loading.caution:hover::after, .button.is-inverted.is-outlined.is-loading.warning:hover::after, .versionchanged > p.button.is-inverted.is-outlined.is-loading:hover::after, .button.is-warning.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-inverted.is-outlined.is-loading.is-hovered.caution::after, .button.is-inverted.is-outlined.is-loading.is-hovered.warning::after, .versionchanged > p.button.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-warning.is-inverted.is-outlined.is-loading:focus::after, .button.is-inverted.is-outlined.is-loading.caution:focus::after, .button.is-inverted.is-outlined.is-loading.warning:focus::after, .versionchanged > p.button.is-inverted.is-outlined.is-loading:focus::after, .button.is-warning.is-inverted.is-outlined.is-loading.is-focused::after, .button.is-inverted.is-outlined.is-loading.is-focused.caution::after, .button.is-inverted.is-outlined.is-loading.is-focused.warning::after, .versionchanged > p.button.is-inverted.is-outlined.is-loading.is-focused::after {
         border-color: transparent transparent #ffe08a #ffe08a !important; }
-      .button.is-warning.is-inverted.is-outlined[disabled], .button.is-inverted.is-outlined.caution[disabled], .button.is-inverted.is-outlined.warning[disabled],
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
+      .button.is-warning.is-inverted.is-outlined[disabled], .button.is-inverted.is-outlined.caution[disabled], .button.is-inverted.is-outlined.warning[disabled], .versionchanged > p.button.is-inverted.is-outlined[disabled],
       fieldset[disabled] .button.is-warning.is-inverted.is-outlined,
       fieldset[disabled] .button.is-inverted.is-outlined.caution,
       fieldset[disabled] .button.is-inverted.is-outlined.warning,
@@ -1214,27 +1158,15 @@ a.box:active {
         border-color: rgba(0, 0, 0, 0.7);
         box-shadow: none;
         color: rgba(0, 0, 0, 0.7); }
-<<<<<<< HEAD
     .button.is-warning.is-light, .button.is-light.caution, .button.is-light.warning, .versionchanged > p.button.is-light {
-      background-color: #fffbeb;
-      color: #947600; }
-      .button.is-warning.is-light:hover, .button.is-light.caution:hover, .button.is-light.warning:hover, .versionchanged > p.button.is-light:hover, .button.is-warning.is-light.is-hovered, .button.is-light.is-hovered.caution, .button.is-light.is-hovered.warning, .versionchanged > p.button.is-light.is-hovered {
-        background-color: #fff8de;
-        border-color: transparent;
-        color: #947600; }
-      .button.is-warning.is-light:active, .button.is-light.caution:active, .button.is-light.warning:active, .versionchanged > p.button.is-light:active, .button.is-warning.is-light.is-active, .button.is-light.is-active.caution, .button.is-light.is-active.warning, .versionchanged > p.button.is-light.is-active {
-        background-color: #fff6d1;
-=======
-    .button.is-warning.is-light, .button.is-light.caution, .button.is-light.warning {
       background-color: #fffaeb;
       color: #946c00; }
-      .button.is-warning.is-light:hover, .button.is-light.caution:hover, .button.is-light.warning:hover, .button.is-warning.is-light.is-hovered, .button.is-light.is-hovered.caution, .button.is-light.is-hovered.warning {
+      .button.is-warning.is-light:hover, .button.is-light.caution:hover, .button.is-light.warning:hover, .versionchanged > p.button.is-light:hover, .button.is-warning.is-light.is-hovered, .button.is-light.is-hovered.caution, .button.is-light.is-hovered.warning, .versionchanged > p.button.is-light.is-hovered {
         background-color: #fff6de;
         border-color: transparent;
         color: #946c00; }
-      .button.is-warning.is-light:active, .button.is-light.caution:active, .button.is-light.warning:active, .button.is-warning.is-light.is-active, .button.is-light.is-active.caution, .button.is-light.is-active.warning {
+      .button.is-warning.is-light:active, .button.is-light.caution:active, .button.is-light.warning:active, .versionchanged > p.button.is-light:active, .button.is-warning.is-light.is-active, .button.is-light.is-active.caution, .button.is-light.is-active.warning, .versionchanged > p.button.is-light.is-active {
         background-color: #fff3d1;
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
         border-color: transparent;
         color: #946c00; }
   .button.is-danger, .button.attention, .button.danger, .button.error {
@@ -1763,25 +1695,14 @@ div.icon-text {
     background-color: #48c78e;
     color: #fff; }
     .notification.is-success.is-light {
-<<<<<<< HEAD
-      background-color: #effaf3;
-      color: #257942; }
-  .notification.is-warning, .notification.caution, .notification.warning, .versionchanged > p.notification {
-    background-color: #ffdd57;
-    color: rgba(0, 0, 0, 0.7); }
-    .notification.is-warning.is-light, .notification.is-light.caution, .notification.is-light.warning, .versionchanged > p.notification.is-light {
-      background-color: #fffbeb;
-      color: #947600; }
-=======
       background-color: #effaf5;
       color: #257953; }
-  .notification.is-warning, .notification.caution, .notification.warning {
+  .notification.is-warning, .notification.caution, .notification.warning, .versionchanged > p.notification {
     background-color: #ffe08a;
     color: rgba(0, 0, 0, 0.7); }
-    .notification.is-warning.is-light, .notification.is-light.caution, .notification.is-light.warning {
+    .notification.is-warning.is-light, .notification.is-light.caution, .notification.is-light.warning, .versionchanged > p.notification.is-light {
       background-color: #fffaeb;
       color: #946c00; }
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
   .notification.is-danger, .notification.attention, .notification.danger, .notification.error {
     background-color: #f14668;
     color: #fff; }
@@ -1871,27 +1792,15 @@ div.icon-text {
   .progress.is-success::-ms-fill {
     background-color: #48c78e; }
   .progress.is-success:indeterminate {
-<<<<<<< HEAD
-    background-image: linear-gradient(to right, #48c774 30%, #ededed 30%); }
-  .progress.is-warning::-webkit-progress-value, .progress.caution::-webkit-progress-value, .progress.warning::-webkit-progress-value, .versionchanged > p.progress::-webkit-progress-value {
-    background-color: #ffdd57; }
-  .progress.is-warning::-moz-progress-bar, .progress.caution::-moz-progress-bar, .progress.warning::-moz-progress-bar, .versionchanged > p.progress::-moz-progress-bar {
-    background-color: #ffdd57; }
-  .progress.is-warning::-ms-fill, .progress.caution::-ms-fill, .progress.warning::-ms-fill, .versionchanged > p.progress::-ms-fill {
-    background-color: #ffdd57; }
-  .progress.is-warning:indeterminate, .progress.caution:indeterminate, .progress.warning:indeterminate, .versionchanged > p.progress:indeterminate {
-    background-image: linear-gradient(to right, #ffdd57 30%, #ededed 30%); }
-=======
     background-image: linear-gradient(to right, #48c78e 30%, #ededed 30%); }
-  .progress.is-warning::-webkit-progress-value, .progress.caution::-webkit-progress-value, .progress.warning::-webkit-progress-value {
+  .progress.is-warning::-webkit-progress-value, .progress.caution::-webkit-progress-value, .progress.warning::-webkit-progress-value, .versionchanged > p.progress::-webkit-progress-value {
     background-color: #ffe08a; }
-  .progress.is-warning::-moz-progress-bar, .progress.caution::-moz-progress-bar, .progress.warning::-moz-progress-bar {
+  .progress.is-warning::-moz-progress-bar, .progress.caution::-moz-progress-bar, .progress.warning::-moz-progress-bar, .versionchanged > p.progress::-moz-progress-bar {
     background-color: #ffe08a; }
-  .progress.is-warning::-ms-fill, .progress.caution::-ms-fill, .progress.warning::-ms-fill {
+  .progress.is-warning::-ms-fill, .progress.caution::-ms-fill, .progress.warning::-ms-fill, .versionchanged > p.progress::-ms-fill {
     background-color: #ffe08a; }
-  .progress.is-warning:indeterminate, .progress.caution:indeterminate, .progress.warning:indeterminate {
+  .progress.is-warning:indeterminate, .progress.caution:indeterminate, .progress.warning:indeterminate, .versionchanged > p.progress:indeterminate {
     background-image: linear-gradient(to right, #ffe08a 30%, #ededed 30%); }
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
   .progress.is-danger::-webkit-progress-value, .progress.attention::-webkit-progress-value, .progress.danger::-webkit-progress-value, .progress.error::-webkit-progress-value {
     background-color: #f14668; }
   .progress.is-danger::-moz-progress-bar, .progress.attention::-moz-progress-bar, .progress.danger::-moz-progress-bar, .progress.error::-moz-progress-bar {
@@ -2159,25 +2068,14 @@ div.icon-text {
     background-color: #48c78e;
     color: #fff; }
     .tag:not(body).is-success.is-light {
-<<<<<<< HEAD
-      background-color: #effaf3;
-      color: #257942; }
-  .tag:not(body).is-warning, .tag.caution:not(body), .tag.warning:not(body), .versionchanged > p.tag:not(body) {
-    background-color: #ffdd57;
-    color: rgba(0, 0, 0, 0.7); }
-    .tag:not(body).is-warning.is-light, .tag.caution:not(body).is-light, .tag.warning:not(body).is-light, .versionchanged > p.tag:not(body).is-light {
-      background-color: #fffbeb;
-      color: #947600; }
-=======
       background-color: #effaf5;
       color: #257953; }
-  .tag:not(body).is-warning, .tag.caution:not(body), .tag.warning:not(body) {
+  .tag:not(body).is-warning, .tag.caution:not(body), .tag.warning:not(body), .versionchanged > p.tag:not(body) {
     background-color: #ffe08a;
     color: rgba(0, 0, 0, 0.7); }
-    .tag:not(body).is-warning.is-light, .tag.caution:not(body).is-light, .tag.warning:not(body).is-light {
+    .tag:not(body).is-warning.is-light, .tag.caution:not(body).is-light, .tag.warning:not(body).is-light, .versionchanged > p.tag:not(body).is-light {
       background-color: #fffaeb;
       color: #946c00; }
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
   .tag:not(body).is-danger, .tag.attention:not(body), .tag.danger:not(body), .tag.error:not(body) {
     background-color: #f14668;
     color: #fff; }
@@ -2408,19 +2306,11 @@ a.tag:hover {
   .is-success.input, .is-success.textarea {
     border-color: #48c78e; }
     .is-success.input:focus, .is-success.textarea:focus, .is-success.is-focused.input, .is-success.is-focused.textarea, .is-success.input:active, .is-success.textarea:active, .is-success.is-active.input, .is-success.is-active.textarea {
-<<<<<<< HEAD
-      box-shadow: 0 0 0 0.125em rgba(72, 199, 116, 0.25); }
-  .is-warning.input, .input.caution, .input.warning, .versionchanged > p.input, .is-warning.textarea, .textarea.caution, .textarea.warning, .versionchanged > p.textarea {
-    border-color: #ffdd57; }
-    .is-warning.input:focus, .input.caution:focus, .input.warning:focus, .versionchanged > p.input:focus, .is-warning.textarea:focus, .textarea.caution:focus, .textarea.warning:focus, .versionchanged > p.textarea:focus, .is-warning.is-focused.input, .is-focused.input.caution, .is-focused.input.warning, .versionchanged > p.is-focused.input, .is-warning.is-focused.textarea, .is-focused.textarea.caution, .is-focused.textarea.warning, .versionchanged > p.is-focused.textarea, .is-warning.input:active, .input.caution:active, .input.warning:active, .versionchanged > p.input:active, .is-warning.textarea:active, .textarea.caution:active, .textarea.warning:active, .versionchanged > p.textarea:active, .is-warning.is-active.input, .is-active.input.caution, .is-active.input.warning, .versionchanged > p.is-active.input, .is-warning.is-active.textarea, .is-active.textarea.caution, .is-active.textarea.warning, .versionchanged > p.is-active.textarea {
-      box-shadow: 0 0 0 0.125em rgba(255, 221, 87, 0.25); }
-=======
       box-shadow: 0 0 0 0.125em rgba(72, 199, 142, 0.25); }
-  .is-warning.input, .input.caution, .input.warning, .is-warning.textarea, .textarea.caution, .textarea.warning {
+  .is-warning.input, .input.caution, .input.warning, .versionchanged > p.input, .is-warning.textarea, .textarea.caution, .textarea.warning, .versionchanged > p.textarea {
     border-color: #ffe08a; }
-    .is-warning.input:focus, .input.caution:focus, .input.warning:focus, .is-warning.textarea:focus, .textarea.caution:focus, .textarea.warning:focus, .is-warning.is-focused.input, .is-focused.input.caution, .is-focused.input.warning, .is-warning.is-focused.textarea, .is-focused.textarea.caution, .is-focused.textarea.warning, .is-warning.input:active, .input.caution:active, .input.warning:active, .is-warning.textarea:active, .textarea.caution:active, .textarea.warning:active, .is-warning.is-active.input, .is-active.input.caution, .is-active.input.warning, .is-warning.is-active.textarea, .is-active.textarea.caution, .is-active.textarea.warning {
+    .is-warning.input:focus, .input.caution:focus, .input.warning:focus, .versionchanged > p.input:focus, .is-warning.textarea:focus, .textarea.caution:focus, .textarea.warning:focus, .versionchanged > p.textarea:focus, .is-warning.is-focused.input, .is-focused.input.caution, .is-focused.input.warning, .versionchanged > p.is-focused.input, .is-warning.is-focused.textarea, .is-focused.textarea.caution, .is-focused.textarea.warning, .versionchanged > p.is-focused.textarea, .is-warning.input:active, .input.caution:active, .input.warning:active, .versionchanged > p.input:active, .is-warning.textarea:active, .textarea.caution:active, .textarea.warning:active, .versionchanged > p.textarea:active, .is-warning.is-active.input, .is-active.input.caution, .is-active.input.warning, .versionchanged > p.is-active.input, .is-warning.is-active.textarea, .is-active.textarea.caution, .is-active.textarea.warning, .versionchanged > p.is-active.textarea {
       box-shadow: 0 0 0 0.125em rgba(255, 224, 138, 0.25); }
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
   .is-danger.input, .input.attention, .input.danger, .input.error, .is-danger.textarea, .textarea.attention, .textarea.danger, .textarea.error {
     border-color: #f14668; }
     .is-danger.input:focus, .input.attention:focus, .input.danger:focus, .input.error:focus, .is-danger.textarea:focus, .textarea.attention:focus, .textarea.danger:focus, .textarea.error:focus, .is-danger.is-focused.input, .is-focused.input.attention, .is-focused.input.danger, .is-focused.input.error, .is-danger.is-focused.textarea, .is-focused.textarea.attention, .is-focused.textarea.danger, .is-focused.textarea.error, .is-danger.input:active, .input.attention:active, .input.danger:active, .input.error:active, .is-danger.textarea:active, .textarea.attention:active, .textarea.danger:active, .textarea.error:active, .is-danger.is-active.input, .is-active.input.attention, .is-active.input.danger, .is-active.input.error, .is-danger.is-active.textarea, .is-active.textarea.attention, .is-active.textarea.danger, .is-active.textarea.error {
@@ -2582,27 +2472,15 @@ a.tag:hover {
     .select.is-success select:hover, .select.is-success select.is-hovered {
       border-color: #3abb81; }
     .select.is-success select:focus, .select.is-success select.is-focused, .select.is-success select:active, .select.is-success select.is-active {
-<<<<<<< HEAD
-      box-shadow: 0 0 0 0.125em rgba(72, 199, 116, 0.25); }
-  .select.is-warning:not(:hover)::after, .select.caution:not(:hover)::after, .select.warning:not(:hover)::after, .versionchanged > p.select:not(:hover)::after {
-    border-color: #ffdd57; }
-  .select.is-warning select, .select.caution select, .select.warning select, .versionchanged > p.select select {
-    border-color: #ffdd57; }
-    .select.is-warning select:hover, .select.caution select:hover, .select.warning select:hover, .versionchanged > p.select select:hover, .select.is-warning select.is-hovered, .select.caution select.is-hovered, .select.warning select.is-hovered, .versionchanged > p.select select.is-hovered {
-      border-color: #ffd83d; }
-    .select.is-warning select:focus, .select.caution select:focus, .select.warning select:focus, .versionchanged > p.select select:focus, .select.is-warning select.is-focused, .select.caution select.is-focused, .select.warning select.is-focused, .versionchanged > p.select select.is-focused, .select.is-warning select:active, .select.caution select:active, .select.warning select:active, .versionchanged > p.select select:active, .select.is-warning select.is-active, .select.caution select.is-active, .select.warning select.is-active, .versionchanged > p.select select.is-active {
-      box-shadow: 0 0 0 0.125em rgba(255, 221, 87, 0.25); }
-=======
       box-shadow: 0 0 0 0.125em rgba(72, 199, 142, 0.25); }
-  .select.is-warning:not(:hover)::after, .select.caution:not(:hover)::after, .select.warning:not(:hover)::after {
+  .select.is-warning:not(:hover)::after, .select.caution:not(:hover)::after, .select.warning:not(:hover)::after, .versionchanged > p.select:not(:hover)::after {
     border-color: #ffe08a; }
-  .select.is-warning select, .select.caution select, .select.warning select {
+  .select.is-warning select, .select.caution select, .select.warning select, .versionchanged > p.select select {
     border-color: #ffe08a; }
-    .select.is-warning select:hover, .select.caution select:hover, .select.warning select:hover, .select.is-warning select.is-hovered, .select.caution select.is-hovered, .select.warning select.is-hovered {
+    .select.is-warning select:hover, .select.caution select:hover, .select.warning select:hover, .versionchanged > p.select select:hover, .select.is-warning select.is-hovered, .select.caution select.is-hovered, .select.warning select.is-hovered, .versionchanged > p.select select.is-hovered {
       border-color: #ffd970; }
-    .select.is-warning select:focus, .select.caution select:focus, .select.warning select:focus, .select.is-warning select.is-focused, .select.caution select.is-focused, .select.warning select.is-focused, .select.is-warning select:active, .select.caution select:active, .select.warning select:active, .select.is-warning select.is-active, .select.caution select.is-active, .select.warning select.is-active {
+    .select.is-warning select:focus, .select.caution select:focus, .select.warning select:focus, .versionchanged > p.select select:focus, .select.is-warning select.is-focused, .select.caution select.is-focused, .select.warning select.is-focused, .versionchanged > p.select select.is-focused, .select.is-warning select:active, .select.caution select:active, .select.warning select:active, .versionchanged > p.select select:active, .select.is-warning select.is-active, .select.caution select.is-active, .select.warning select.is-active, .versionchanged > p.select select.is-active {
       box-shadow: 0 0 0 0.125em rgba(255, 224, 138, 0.25); }
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
   .select.is-danger:not(:hover)::after, .select.attention:not(:hover)::after, .select.danger:not(:hover)::after, .select.error:not(:hover)::after {
     border-color: #f14668; }
   .select.is-danger select, .select.attention select, .select.danger select, .select.error select {
@@ -2770,34 +2648,20 @@ a.tag:hover {
     background-color: #3abb81;
     border-color: transparent;
     color: #fff; }
-<<<<<<< HEAD
   .file.is-warning .file-cta, .file.caution .file-cta, .file.warning .file-cta, .versionchanged > p.file .file-cta {
-    background-color: #ffdd57;
-    border-color: transparent;
-    color: rgba(0, 0, 0, 0.7); }
-  .file.is-warning:hover .file-cta, .file.caution:hover .file-cta, .file.warning:hover .file-cta, .versionchanged > p.file:hover .file-cta, .file.is-warning.is-hovered .file-cta, .file.is-hovered.caution .file-cta, .file.is-hovered.warning .file-cta, .versionchanged > p.file.is-hovered .file-cta {
-    background-color: #ffdb4a;
-=======
-  .file.is-warning .file-cta, .file.caution .file-cta, .file.warning .file-cta {
     background-color: #ffe08a;
     border-color: transparent;
     color: rgba(0, 0, 0, 0.7); }
-  .file.is-warning:hover .file-cta, .file.caution:hover .file-cta, .file.warning:hover .file-cta, .file.is-warning.is-hovered .file-cta, .file.is-hovered.caution .file-cta, .file.is-hovered.warning .file-cta {
+  .file.is-warning:hover .file-cta, .file.caution:hover .file-cta, .file.warning:hover .file-cta, .versionchanged > p.file:hover .file-cta, .file.is-warning.is-hovered .file-cta, .file.is-hovered.caution .file-cta, .file.is-hovered.warning .file-cta, .versionchanged > p.file.is-hovered .file-cta {
     background-color: #ffdc7d;
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
     border-color: transparent;
     color: rgba(0, 0, 0, 0.7); }
   .file.is-warning:focus .file-cta, .file.caution:focus .file-cta, .file.warning:focus .file-cta, .versionchanged > p.file:focus .file-cta, .file.is-warning.is-focused .file-cta, .file.is-focused.caution .file-cta, .file.is-focused.warning .file-cta, .versionchanged > p.file.is-focused .file-cta {
     border-color: transparent;
     box-shadow: 0 0 0.5em rgba(255, 224, 138, 0.25);
     color: rgba(0, 0, 0, 0.7); }
-<<<<<<< HEAD
   .file.is-warning:active .file-cta, .file.caution:active .file-cta, .file.warning:active .file-cta, .versionchanged > p.file:active .file-cta, .file.is-warning.is-active .file-cta, .file.is-active.caution .file-cta, .file.is-active.warning .file-cta, .versionchanged > p.file.is-active .file-cta {
-    background-color: #ffd83d;
-=======
-  .file.is-warning:active .file-cta, .file.caution:active .file-cta, .file.warning:active .file-cta, .file.is-warning.is-active .file-cta, .file.is-active.caution .file-cta, .file.is-active.warning .file-cta {
     background-color: #ffd970;
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
     border-color: transparent;
     color: rgba(0, 0, 0, 0.7); }
   .file.is-danger .file-cta, .file.attention .file-cta, .file.danger .file-cta, .file.error .file-cta {
@@ -2971,15 +2835,9 @@ a.tag:hover {
   .help.is-info, .help.tip, .help.info {
     color: #3e8ed0; }
   .help.is-success {
-<<<<<<< HEAD
-    color: #48c774; }
-  .help.is-warning, .help.caution, .help.warning, .versionchanged > p.help {
-    color: #ffdd57; }
-=======
     color: #48c78e; }
-  .help.is-warning, .help.caution, .help.warning {
+  .help.is-warning, .help.caution, .help.warning, .versionchanged > p.help {
     color: #ffe08a; }
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
   .help.is-danger, .help.attention, .help.danger, .help.error {
     color: #f14668; }
 
@@ -3570,75 +3428,39 @@ button.dropdown-item {
     .message.is-primary .message-body, .is-primary.admonition .message-body, .admonition.hint .message-body, .message.hint .message-body, .hint.versionchanged .message-body, blockquote.hint .message-body, .is-primary.versionchanged .message-body, blockquote.is-primary .message-body, .message.is-primary .versionchanged > p, .is-primary.admonition .versionchanged > p, .admonition.hint .versionchanged > p, .message.hint .versionchanged > p, .hint.versionchanged .versionchanged > p, blockquote.hint .versionchanged > p, .is-primary.versionchanged .versionchanged > p, blockquote.is-primary .versionchanged > p, .message.is-primary blockquote, .is-primary.admonition blockquote, .admonition.hint blockquote, .message.hint blockquote, .hint.versionchanged blockquote, blockquote.hint blockquote, .is-primary.versionchanged blockquote, blockquote.is-primary blockquote {
       border-color: #00d1b2;
       color: #00947e; }
-<<<<<<< HEAD
   .message.is-link, .is-link.admonition, .admonition.important, .message.important, .important.versionchanged, blockquote.important, .is-link.versionchanged, blockquote.is-link {
-    background-color: #eef3fc; }
-    .message.is-link .message-header, .is-link.admonition .message-header, .admonition.important .message-header, .message.important .message-header, .important.versionchanged .message-header, blockquote.important .message-header, .is-link.versionchanged .message-header, blockquote.is-link .message-header, .message.is-link .admonition-title, .is-link.admonition .admonition-title, .admonition.important .admonition-title, .message.important .admonition-title, .important.versionchanged .admonition-title, blockquote.important .admonition-title, .is-link.versionchanged .admonition-title, blockquote.is-link .admonition-title {
-      background-color: #3273dc;
-      color: #fff; }
-    .message.is-link .message-body, .is-link.admonition .message-body, .admonition.important .message-body, .message.important .message-body, .important.versionchanged .message-body, blockquote.important .message-body, .is-link.versionchanged .message-body, blockquote.is-link .message-body, .message.is-link .versionchanged > p, .is-link.admonition .versionchanged > p, .admonition.important .versionchanged > p, .message.important .versionchanged > p, .important.versionchanged .versionchanged > p, blockquote.important .versionchanged > p, .is-link.versionchanged .versionchanged > p, blockquote.is-link .versionchanged > p, .message.is-link blockquote, .is-link.admonition blockquote, .admonition.important blockquote, .message.important blockquote, .important.versionchanged blockquote, blockquote.important blockquote, .is-link.versionchanged blockquote, blockquote.is-link blockquote {
-      border-color: #3273dc;
-      color: #2160c4; }
-  .message.is-info, .is-info.admonition, .admonition.tip, .admonition.info, .message.tip, .tip.versionchanged, blockquote.tip, .message.info, .info.versionchanged, blockquote.info, .is-info.versionchanged, blockquote.is-info {
-    background-color: #eef6fc; }
-    .message.is-info .message-header, .is-info.admonition .message-header, .admonition.tip .message-header, .admonition.info .message-header, .message.tip .message-header, .tip.versionchanged .message-header, blockquote.tip .message-header, .message.info .message-header, .info.versionchanged .message-header, blockquote.info .message-header, .is-info.versionchanged .message-header, blockquote.is-info .message-header, .message.is-info .admonition-title, .is-info.admonition .admonition-title, .admonition.tip .admonition-title, .admonition.info .admonition-title, .message.tip .admonition-title, .tip.versionchanged .admonition-title, blockquote.tip .admonition-title, .message.info .admonition-title, .info.versionchanged .admonition-title, blockquote.info .admonition-title, .is-info.versionchanged .admonition-title, blockquote.is-info .admonition-title {
-      background-color: #3298dc;
-      color: #fff; }
-    .message.is-info .message-body, .is-info.admonition .message-body, .admonition.tip .message-body, .admonition.info .message-body, .message.tip .message-body, .tip.versionchanged .message-body, blockquote.tip .message-body, .message.info .message-body, .info.versionchanged .message-body, blockquote.info .message-body, .is-info.versionchanged .message-body, blockquote.is-info .message-body, .message.is-info .versionchanged > p, .is-info.admonition .versionchanged > p, .admonition.tip .versionchanged > p, .admonition.info .versionchanged > p, .message.tip .versionchanged > p, .tip.versionchanged .versionchanged > p, blockquote.tip .versionchanged > p, .message.info .versionchanged > p, .info.versionchanged .versionchanged > p, blockquote.info .versionchanged > p, .is-info.versionchanged .versionchanged > p, blockquote.is-info .versionchanged > p, .message.is-info blockquote, .is-info.admonition blockquote, .admonition.tip blockquote, .admonition.info blockquote, .message.tip blockquote, .tip.versionchanged blockquote, blockquote.tip blockquote, .message.info blockquote, .info.versionchanged blockquote, blockquote.info blockquote, .is-info.versionchanged blockquote, blockquote.is-info blockquote {
-      border-color: #3298dc;
-      color: #1d72aa; }
-  .message.is-success, .is-success.admonition, .is-success.versionchanged, blockquote.is-success {
-    background-color: #effaf3; }
-    .message.is-success .message-header, .is-success.admonition .message-header, .is-success.versionchanged .message-header, blockquote.is-success .message-header, .message.is-success .admonition-title, .is-success.admonition .admonition-title, .is-success.versionchanged .admonition-title, blockquote.is-success .admonition-title {
-      background-color: #48c774;
-      color: #fff; }
-    .message.is-success .message-body, .is-success.admonition .message-body, .is-success.versionchanged .message-body, blockquote.is-success .message-body, .message.is-success .versionchanged > p, .is-success.admonition .versionchanged > p, .is-success.versionchanged .versionchanged > p, blockquote.is-success .versionchanged > p, .message.is-success blockquote, .is-success.admonition blockquote, .is-success.versionchanged blockquote, blockquote.is-success blockquote {
-      border-color: #48c774;
-      color: #257942; }
-  .message.is-warning, .is-warning.admonition, .admonition.caution, .admonition.warning, .versionchanged > p.admonition, .message.caution, .caution.versionchanged, blockquote.caution, .message.warning, .warning.versionchanged, blockquote.warning, .is-warning.versionchanged, .versionchanged > p.versionchanged, .versionchanged > p.message, blockquote.is-warning {
-    background-color: #fffbeb; }
-    .message.is-warning .message-header, .is-warning.admonition .message-header, .admonition.caution .message-header, .admonition.warning .message-header, .versionchanged > p.admonition .message-header, .message.caution .message-header, .caution.versionchanged .message-header, blockquote.caution .message-header, .message.warning .message-header, .warning.versionchanged .message-header, blockquote.warning .message-header, .is-warning.versionchanged .message-header, .versionchanged > p.versionchanged .message-header, .versionchanged > p.message .message-header, blockquote.is-warning .message-header, .message.is-warning .admonition-title, .is-warning.admonition .admonition-title, .admonition.caution .admonition-title, .admonition.warning .admonition-title, .versionchanged > p.admonition .admonition-title, .message.caution .admonition-title, .caution.versionchanged .admonition-title, blockquote.caution .admonition-title, .message.warning .admonition-title, .warning.versionchanged .admonition-title, blockquote.warning .admonition-title, .is-warning.versionchanged .admonition-title, .versionchanged > p.versionchanged .admonition-title, .versionchanged > p.message .admonition-title, blockquote.is-warning .admonition-title {
-      background-color: #ffdd57;
-      color: rgba(0, 0, 0, 0.7); }
-    .message.is-warning .message-body, .is-warning.admonition .message-body, .admonition.caution .message-body, .admonition.warning .message-body, .versionchanged > p.admonition .message-body, .message.caution .message-body, .caution.versionchanged .message-body, blockquote.caution .message-body, .message.warning .message-body, .warning.versionchanged .message-body, blockquote.warning .message-body, .is-warning.versionchanged .message-body, .versionchanged > p.versionchanged .message-body, .versionchanged > p.message .message-body, blockquote.is-warning .message-body, .message.is-warning .versionchanged > p, .is-warning.admonition .versionchanged > p, .admonition.caution .versionchanged > p, .admonition.warning .versionchanged > p, .versionchanged > p.admonition .versionchanged > p, .message.caution .versionchanged > p, .caution.versionchanged .versionchanged > p, blockquote.caution .versionchanged > p, .message.warning .versionchanged > p, .warning.versionchanged .versionchanged > p, blockquote.warning .versionchanged > p, .is-warning.versionchanged .versionchanged > p, .versionchanged > p.versionchanged .versionchanged > p, .versionchanged > p.message .versionchanged > p, blockquote.is-warning .versionchanged > p, .message.is-warning blockquote, .is-warning.admonition blockquote, .admonition.caution blockquote, .admonition.warning blockquote, .versionchanged > p.admonition blockquote, .message.caution blockquote, .caution.versionchanged blockquote, blockquote.caution blockquote, .message.warning blockquote, .warning.versionchanged blockquote, blockquote.warning blockquote, .is-warning.versionchanged blockquote, .versionchanged > p.versionchanged blockquote, .versionchanged > p.message blockquote, blockquote.is-warning blockquote {
-      border-color: #ffdd57;
-      color: #947600; }
-  .message.is-danger, .is-danger.admonition, .admonition.attention, .admonition.danger, .admonition.error, .message.attention, .attention.versionchanged, blockquote.attention, .message.danger, .danger.versionchanged, blockquote.danger, .message.error, .error.versionchanged, blockquote.error, .is-danger.versionchanged, blockquote.is-danger {
-=======
-  .message.is-link, .is-link.admonition, .admonition.important, .message.important, blockquote.important, blockquote.is-link {
     background-color: #eff1fa; }
-    .message.is-link .message-header, .is-link.admonition .message-header, .admonition.important .message-header, .message.important .message-header, blockquote.important .message-header, blockquote.is-link .message-header, .message.is-link .admonition-title, .is-link.admonition .admonition-title, .admonition.important .admonition-title, .message.important .admonition-title, blockquote.important .admonition-title, blockquote.is-link .admonition-title {
+    .message.is-link .message-header, .is-link.admonition .message-header, .admonition.important .message-header, .message.important .message-header, .important.versionchanged .message-header, blockquote.important .message-header, .is-link.versionchanged .message-header, blockquote.is-link .message-header, .message.is-link .admonition-title, .is-link.admonition .admonition-title, .admonition.important .admonition-title, .message.important .admonition-title, .important.versionchanged .admonition-title, blockquote.important .admonition-title, .is-link.versionchanged .admonition-title, blockquote.is-link .admonition-title {
       background-color: #485fc7;
       color: #fff; }
-    .message.is-link .message-body, .is-link.admonition .message-body, .admonition.important .message-body, .message.important .message-body, blockquote.important .message-body, blockquote.is-link .message-body, .message.is-link blockquote, .is-link.admonition blockquote, .admonition.important blockquote, .message.important blockquote, blockquote.important blockquote, blockquote.is-link blockquote {
+    .message.is-link .message-body, .is-link.admonition .message-body, .admonition.important .message-body, .message.important .message-body, .important.versionchanged .message-body, blockquote.important .message-body, .is-link.versionchanged .message-body, blockquote.is-link .message-body, .message.is-link .versionchanged > p, .is-link.admonition .versionchanged > p, .admonition.important .versionchanged > p, .message.important .versionchanged > p, .important.versionchanged .versionchanged > p, blockquote.important .versionchanged > p, .is-link.versionchanged .versionchanged > p, blockquote.is-link .versionchanged > p, .message.is-link blockquote, .is-link.admonition blockquote, .admonition.important blockquote, .message.important blockquote, .important.versionchanged blockquote, blockquote.important blockquote, .is-link.versionchanged blockquote, blockquote.is-link blockquote {
       border-color: #485fc7;
       color: #3850b7; }
-  .message.is-info, .is-info.admonition, .admonition.tip, .admonition.info, .message.tip, blockquote.tip, .message.info, blockquote.info, blockquote.is-info {
+  .message.is-info, .is-info.admonition, .admonition.tip, .admonition.info, .message.tip, .tip.versionchanged, blockquote.tip, .message.info, .info.versionchanged, blockquote.info, .is-info.versionchanged, blockquote.is-info {
     background-color: #eff5fb; }
-    .message.is-info .message-header, .is-info.admonition .message-header, .admonition.tip .message-header, .admonition.info .message-header, .message.tip .message-header, blockquote.tip .message-header, .message.info .message-header, blockquote.info .message-header, blockquote.is-info .message-header, .message.is-info .admonition-title, .is-info.admonition .admonition-title, .admonition.tip .admonition-title, .admonition.info .admonition-title, .message.tip .admonition-title, blockquote.tip .admonition-title, .message.info .admonition-title, blockquote.info .admonition-title, blockquote.is-info .admonition-title {
+    .message.is-info .message-header, .is-info.admonition .message-header, .admonition.tip .message-header, .admonition.info .message-header, .message.tip .message-header, .tip.versionchanged .message-header, blockquote.tip .message-header, .message.info .message-header, .info.versionchanged .message-header, blockquote.info .message-header, .is-info.versionchanged .message-header, blockquote.is-info .message-header, .message.is-info .admonition-title, .is-info.admonition .admonition-title, .admonition.tip .admonition-title, .admonition.info .admonition-title, .message.tip .admonition-title, .tip.versionchanged .admonition-title, blockquote.tip .admonition-title, .message.info .admonition-title, .info.versionchanged .admonition-title, blockquote.info .admonition-title, .is-info.versionchanged .admonition-title, blockquote.is-info .admonition-title {
       background-color: #3e8ed0;
       color: #fff; }
-    .message.is-info .message-body, .is-info.admonition .message-body, .admonition.tip .message-body, .admonition.info .message-body, .message.tip .message-body, blockquote.tip .message-body, .message.info .message-body, blockquote.info .message-body, blockquote.is-info .message-body, .message.is-info blockquote, .is-info.admonition blockquote, .admonition.tip blockquote, .admonition.info blockquote, .message.tip blockquote, blockquote.tip blockquote, .message.info blockquote, blockquote.info blockquote, blockquote.is-info blockquote {
+    .message.is-info .message-body, .is-info.admonition .message-body, .admonition.tip .message-body, .admonition.info .message-body, .message.tip .message-body, .tip.versionchanged .message-body, blockquote.tip .message-body, .message.info .message-body, .info.versionchanged .message-body, blockquote.info .message-body, .is-info.versionchanged .message-body, blockquote.is-info .message-body, .message.is-info .versionchanged > p, .is-info.admonition .versionchanged > p, .admonition.tip .versionchanged > p, .admonition.info .versionchanged > p, .message.tip .versionchanged > p, .tip.versionchanged .versionchanged > p, blockquote.tip .versionchanged > p, .message.info .versionchanged > p, .info.versionchanged .versionchanged > p, blockquote.info .versionchanged > p, .is-info.versionchanged .versionchanged > p, blockquote.is-info .versionchanged > p, .message.is-info blockquote, .is-info.admonition blockquote, .admonition.tip blockquote, .admonition.info blockquote, .message.tip blockquote, .tip.versionchanged blockquote, blockquote.tip blockquote, .message.info blockquote, .info.versionchanged blockquote, blockquote.info blockquote, .is-info.versionchanged blockquote, blockquote.is-info blockquote {
       border-color: #3e8ed0;
       color: #296fa8; }
-  .message.is-success, .is-success.admonition, blockquote.is-success {
+  .message.is-success, .is-success.admonition, .is-success.versionchanged, blockquote.is-success {
     background-color: #effaf5; }
-    .message.is-success .message-header, .is-success.admonition .message-header, blockquote.is-success .message-header, .message.is-success .admonition-title, .is-success.admonition .admonition-title, blockquote.is-success .admonition-title {
+    .message.is-success .message-header, .is-success.admonition .message-header, .is-success.versionchanged .message-header, blockquote.is-success .message-header, .message.is-success .admonition-title, .is-success.admonition .admonition-title, .is-success.versionchanged .admonition-title, blockquote.is-success .admonition-title {
       background-color: #48c78e;
       color: #fff; }
-    .message.is-success .message-body, .is-success.admonition .message-body, blockquote.is-success .message-body, .message.is-success blockquote, .is-success.admonition blockquote, blockquote.is-success blockquote {
+    .message.is-success .message-body, .is-success.admonition .message-body, .is-success.versionchanged .message-body, blockquote.is-success .message-body, .message.is-success .versionchanged > p, .is-success.admonition .versionchanged > p, .is-success.versionchanged .versionchanged > p, blockquote.is-success .versionchanged > p, .message.is-success blockquote, .is-success.admonition blockquote, .is-success.versionchanged blockquote, blockquote.is-success blockquote {
       border-color: #48c78e;
       color: #257953; }
-  .message.is-warning, .is-warning.admonition, .admonition.caution, .admonition.warning, .message.caution, blockquote.caution, .message.warning, blockquote.warning, blockquote.is-warning {
+  .message.is-warning, .is-warning.admonition, .admonition.caution, .admonition.warning, .versionchanged > p.admonition, .message.caution, .caution.versionchanged, blockquote.caution, .message.warning, .warning.versionchanged, blockquote.warning, .is-warning.versionchanged, .versionchanged > p.versionchanged, .versionchanged > p.message, blockquote.is-warning {
     background-color: #fffaeb; }
-    .message.is-warning .message-header, .is-warning.admonition .message-header, .admonition.caution .message-header, .admonition.warning .message-header, .message.caution .message-header, blockquote.caution .message-header, .message.warning .message-header, blockquote.warning .message-header, blockquote.is-warning .message-header, .message.is-warning .admonition-title, .is-warning.admonition .admonition-title, .admonition.caution .admonition-title, .admonition.warning .admonition-title, .message.caution .admonition-title, blockquote.caution .admonition-title, .message.warning .admonition-title, blockquote.warning .admonition-title, blockquote.is-warning .admonition-title {
+    .message.is-warning .message-header, .is-warning.admonition .message-header, .admonition.caution .message-header, .admonition.warning .message-header, .versionchanged > p.admonition .message-header, .message.caution .message-header, .caution.versionchanged .message-header, blockquote.caution .message-header, .message.warning .message-header, .warning.versionchanged .message-header, blockquote.warning .message-header, .is-warning.versionchanged .message-header, .versionchanged > p.versionchanged .message-header, .versionchanged > p.message .message-header, blockquote.is-warning .message-header, .message.is-warning .admonition-title, .is-warning.admonition .admonition-title, .admonition.caution .admonition-title, .admonition.warning .admonition-title, .versionchanged > p.admonition .admonition-title, .message.caution .admonition-title, .caution.versionchanged .admonition-title, blockquote.caution .admonition-title, .message.warning .admonition-title, .warning.versionchanged .admonition-title, blockquote.warning .admonition-title, .is-warning.versionchanged .admonition-title, .versionchanged > p.versionchanged .admonition-title, .versionchanged > p.message .admonition-title, blockquote.is-warning .admonition-title {
       background-color: #ffe08a;
       color: rgba(0, 0, 0, 0.7); }
-    .message.is-warning .message-body, .is-warning.admonition .message-body, .admonition.caution .message-body, .admonition.warning .message-body, .message.caution .message-body, blockquote.caution .message-body, .message.warning .message-body, blockquote.warning .message-body, blockquote.is-warning .message-body, .message.is-warning blockquote, .is-warning.admonition blockquote, .admonition.caution blockquote, .admonition.warning blockquote, .message.caution blockquote, blockquote.caution blockquote, .message.warning blockquote, blockquote.warning blockquote, blockquote.is-warning blockquote {
+    .message.is-warning .message-body, .is-warning.admonition .message-body, .admonition.caution .message-body, .admonition.warning .message-body, .versionchanged > p.admonition .message-body, .message.caution .message-body, .caution.versionchanged .message-body, blockquote.caution .message-body, .message.warning .message-body, .warning.versionchanged .message-body, blockquote.warning .message-body, .is-warning.versionchanged .message-body, .versionchanged > p.versionchanged .message-body, .versionchanged > p.message .message-body, blockquote.is-warning .message-body, .message.is-warning .versionchanged > p, .is-warning.admonition .versionchanged > p, .admonition.caution .versionchanged > p, .admonition.warning .versionchanged > p, .versionchanged > p.admonition .versionchanged > p, .message.caution .versionchanged > p, .caution.versionchanged .versionchanged > p, blockquote.caution .versionchanged > p, .message.warning .versionchanged > p, .warning.versionchanged .versionchanged > p, blockquote.warning .versionchanged > p, .is-warning.versionchanged .versionchanged > p, .versionchanged > p.versionchanged .versionchanged > p, .versionchanged > p.message .versionchanged > p, blockquote.is-warning .versionchanged > p, .message.is-warning blockquote, .is-warning.admonition blockquote, .admonition.caution blockquote, .admonition.warning blockquote, .versionchanged > p.admonition blockquote, .message.caution blockquote, .caution.versionchanged blockquote, blockquote.caution blockquote, .message.warning blockquote, .warning.versionchanged blockquote, blockquote.warning blockquote, .is-warning.versionchanged blockquote, .versionchanged > p.versionchanged blockquote, .versionchanged > p.message blockquote, blockquote.is-warning blockquote {
       border-color: #ffe08a;
       color: #946c00; }
-  .message.is-danger, .is-danger.admonition, .admonition.attention, .admonition.danger, .admonition.error, .message.attention, blockquote.attention, .message.danger, blockquote.danger, .message.error, blockquote.error, blockquote.is-danger {
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
+  .message.is-danger, .is-danger.admonition, .admonition.attention, .admonition.danger, .admonition.error, .message.attention, .attention.versionchanged, blockquote.attention, .message.danger, .danger.versionchanged, blockquote.danger, .message.error, .error.versionchanged, blockquote.error, .is-danger.versionchanged, blockquote.is-danger {
     background-color: #feecf0; }
     .message.is-danger .message-header, .is-danger.admonition .message-header, .admonition.attention .message-header, .admonition.danger .message-header, .admonition.error .message-header, .message.attention .message-header, .attention.versionchanged .message-header, blockquote.attention .message-header, .message.danger .message-header, .danger.versionchanged .message-header, blockquote.danger .message-header, .message.error .message-header, .error.versionchanged .message-header, blockquote.error .message-header, .is-danger.versionchanged .message-header, blockquote.is-danger .message-header, .message.is-danger .admonition-title, .is-danger.admonition .admonition-title, .admonition.attention .admonition-title, .admonition.danger .admonition-title, .admonition.error .admonition-title, .message.attention .admonition-title, .attention.versionchanged .admonition-title, blockquote.attention .admonition-title, .message.danger .admonition-title, .danger.versionchanged .admonition-title, blockquote.danger .admonition-title, .message.error .admonition-title, .error.versionchanged .admonition-title, blockquote.error .admonition-title, .is-danger.versionchanged .admonition-title, blockquote.is-danger .admonition-title {
       background-color: #f14668;
@@ -4241,13 +4063,8 @@ button.dropdown-item {
       .navbar.is-success .navbar-dropdown a.navbar-item.is-active {
         background-color: #48c78e;
         color: #fff; } }
-<<<<<<< HEAD
   .navbar.is-warning, .navbar.caution, .navbar.warning, .versionchanged > p.navbar {
-    background-color: #ffdd57;
-=======
-  .navbar.is-warning, .navbar.caution, .navbar.warning {
     background-color: #ffe08a;
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
     color: rgba(0, 0, 0, 0.7); }
     .navbar.is-warning .navbar-brand > .navbar-item, .navbar.caution .navbar-brand > .navbar-item, .navbar.warning .navbar-brand > .navbar-item, .versionchanged > p.navbar .navbar-brand > .navbar-item,
     .navbar.is-warning .navbar-brand .navbar-link,
@@ -4266,14 +4083,9 @@ button.dropdown-item {
     .versionchanged > p.navbar .navbar-brand .navbar-link:hover,
     .navbar.is-warning .navbar-brand .navbar-link.is-active,
     .navbar.caution .navbar-brand .navbar-link.is-active,
-<<<<<<< HEAD
     .navbar.warning .navbar-brand .navbar-link.is-active,
     .versionchanged > p.navbar .navbar-brand .navbar-link.is-active {
-      background-color: #ffd83d;
-=======
-    .navbar.warning .navbar-brand .navbar-link.is-active {
       background-color: #ffd970;
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
       color: rgba(0, 0, 0, 0.7); }
     .navbar.is-warning .navbar-brand .navbar-link::after, .navbar.caution .navbar-brand .navbar-link::after, .navbar.warning .navbar-brand .navbar-link::after, .versionchanged > p.navbar .navbar-brand .navbar-link::after {
       border-color: rgba(0, 0, 0, 0.7); }
@@ -4329,14 +4141,9 @@ button.dropdown-item {
       .versionchanged > p.navbar .navbar-end .navbar-link:hover,
       .navbar.is-warning .navbar-end .navbar-link.is-active,
       .navbar.caution .navbar-end .navbar-link.is-active,
-<<<<<<< HEAD
       .navbar.warning .navbar-end .navbar-link.is-active,
       .versionchanged > p.navbar .navbar-end .navbar-link.is-active {
-        background-color: #ffd83d;
-=======
-      .navbar.warning .navbar-end .navbar-link.is-active {
         background-color: #ffd970;
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
         color: rgba(0, 0, 0, 0.7); }
       .navbar.is-warning .navbar-start .navbar-link::after, .navbar.caution .navbar-start .navbar-link::after, .navbar.warning .navbar-start .navbar-link::after, .versionchanged > p.navbar .navbar-start .navbar-link::after,
       .navbar.is-warning .navbar-end .navbar-link::after,
@@ -4351,20 +4158,12 @@ button.dropdown-item {
       .versionchanged > p.navbar .navbar-item.has-dropdown:hover .navbar-link,
       .navbar.is-warning .navbar-item.has-dropdown.is-active .navbar-link,
       .navbar.caution .navbar-item.has-dropdown.is-active .navbar-link,
-<<<<<<< HEAD
       .navbar.warning .navbar-item.has-dropdown.is-active .navbar-link,
       .versionchanged > p.navbar .navbar-item.has-dropdown.is-active .navbar-link {
-        background-color: #ffd83d;
-        color: rgba(0, 0, 0, 0.7); }
-      .navbar.is-warning .navbar-dropdown a.navbar-item.is-active, .navbar.caution .navbar-dropdown a.navbar-item.is-active, .navbar.warning .navbar-dropdown a.navbar-item.is-active, .versionchanged > p.navbar .navbar-dropdown a.navbar-item.is-active {
-        background-color: #ffdd57;
-=======
-      .navbar.warning .navbar-item.has-dropdown.is-active .navbar-link {
         background-color: #ffd970;
         color: rgba(0, 0, 0, 0.7); }
-      .navbar.is-warning .navbar-dropdown a.navbar-item.is-active, .navbar.caution .navbar-dropdown a.navbar-item.is-active, .navbar.warning .navbar-dropdown a.navbar-item.is-active {
+      .navbar.is-warning .navbar-dropdown a.navbar-item.is-active, .navbar.caution .navbar-dropdown a.navbar-item.is-active, .navbar.warning .navbar-dropdown a.navbar-item.is-active, .versionchanged > p.navbar .navbar-dropdown a.navbar-item.is-active {
         background-color: #ffe08a;
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
         color: rgba(0, 0, 0, 0.7); } }
   .navbar.is-danger, .navbar.attention, .navbar.danger, .navbar.error {
     background-color: #f14668;
@@ -4992,25 +4791,14 @@ a.navbar-item,
   .panel.is-success .panel-tabs a.is-active {
     border-bottom-color: #48c78e; }
   .panel.is-success .panel-block.is-active .panel-icon {
-<<<<<<< HEAD
-    color: #48c774; }
-  .panel.is-warning .panel-heading, .panel.caution .panel-heading, .panel.warning .panel-heading, .versionchanged > p.panel .panel-heading {
-    background-color: #ffdd57;
-    color: rgba(0, 0, 0, 0.7); }
-  .panel.is-warning .panel-tabs a.is-active, .panel.caution .panel-tabs a.is-active, .panel.warning .panel-tabs a.is-active, .versionchanged > p.panel .panel-tabs a.is-active {
-    border-bottom-color: #ffdd57; }
-  .panel.is-warning .panel-block.is-active .panel-icon, .panel.caution .panel-block.is-active .panel-icon, .panel.warning .panel-block.is-active .panel-icon, .versionchanged > p.panel .panel-block.is-active .panel-icon {
-    color: #ffdd57; }
-=======
     color: #48c78e; }
-  .panel.is-warning .panel-heading, .panel.caution .panel-heading, .panel.warning .panel-heading {
+  .panel.is-warning .panel-heading, .panel.caution .panel-heading, .panel.warning .panel-heading, .versionchanged > p.panel .panel-heading {
     background-color: #ffe08a;
     color: rgba(0, 0, 0, 0.7); }
-  .panel.is-warning .panel-tabs a.is-active, .panel.caution .panel-tabs a.is-active, .panel.warning .panel-tabs a.is-active {
+  .panel.is-warning .panel-tabs a.is-active, .panel.caution .panel-tabs a.is-active, .panel.warning .panel-tabs a.is-active, .versionchanged > p.panel .panel-tabs a.is-active {
     border-bottom-color: #ffe08a; }
-  .panel.is-warning .panel-block.is-active .panel-icon, .panel.caution .panel-block.is-active .panel-icon, .panel.warning .panel-block.is-active .panel-icon {
+  .panel.is-warning .panel-block.is-active .panel-icon, .panel.caution .panel-block.is-active .panel-icon, .panel.warning .panel-block.is-active .panel-icon, .versionchanged > p.panel .panel-block.is-active .panel-icon {
     color: #ffe08a; }
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
   .panel.is-danger .panel-heading, .panel.attention .panel-heading, .panel.danger .panel-heading, .panel.error .panel-heading {
     background-color: #f14668;
     color: #fff; }
@@ -8210,15 +7998,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
       background-image: linear-gradient(141deg, #29b35e 0%, #48c78e 71%, #56d2af 100%); }
       @media screen and (max-width: 768px) {
         .hero.is-success.is-bold .navbar-menu {
-<<<<<<< HEAD
-          background-image: linear-gradient(141deg, #29b342 0%, #48c774 71%, #56d296 100%); } }
-  .hero.is-warning, .hero.caution, .hero.warning, .versionchanged > p.hero {
-    background-color: #ffdd57;
-=======
           background-image: linear-gradient(141deg, #29b35e 0%, #48c78e 71%, #56d2af 100%); } }
-  .hero.is-warning, .hero.caution, .hero.warning {
+  .hero.is-warning, .hero.caution, .hero.warning, .versionchanged > p.hero {
     background-color: #ffe08a;
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
     color: rgba(0, 0, 0, 0.7); }
     .hero.is-warning a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current), .hero.caution a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current), .hero.warning a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current), .versionchanged > p.hero a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
     .hero.is-warning strong,
@@ -8237,15 +8019,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
       .versionchanged > p.hero .subtitle strong {
         color: rgba(0, 0, 0, 0.7); }
     @media screen and (max-width: 1023px) {
-<<<<<<< HEAD
       .hero.is-warning .navbar-menu, .hero.caution .navbar-menu, .hero.warning .navbar-menu, .versionchanged > p.hero .navbar-menu {
-        background-color: #ffdd57; } }
-    .hero.is-warning .navbar-item, .hero.caution .navbar-item, .hero.warning .navbar-item, .versionchanged > p.hero .navbar-item,
-=======
-      .hero.is-warning .navbar-menu, .hero.caution .navbar-menu, .hero.warning .navbar-menu {
         background-color: #ffe08a; } }
-    .hero.is-warning .navbar-item, .hero.caution .navbar-item, .hero.warning .navbar-item,
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
+    .hero.is-warning .navbar-item, .hero.caution .navbar-item, .hero.warning .navbar-item, .versionchanged > p.hero .navbar-item,
     .hero.is-warning .navbar-link,
     .hero.caution .navbar-link,
     .hero.warning .navbar-link,
@@ -8258,26 +8034,17 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     .versionchanged > p.hero .navbar-link:hover,
     .hero.is-warning .navbar-link.is-active,
     .hero.caution .navbar-link.is-active,
-<<<<<<< HEAD
     .hero.warning .navbar-link.is-active,
     .versionchanged > p.hero .navbar-link.is-active {
-      background-color: #ffd83d;
-=======
-    .hero.warning .navbar-link.is-active {
       background-color: #ffd970;
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
       color: rgba(0, 0, 0, 0.7); }
     .hero.is-warning .tabs a, .hero.caution .tabs a, .hero.warning .tabs a, .versionchanged > p.hero .tabs a {
       color: rgba(0, 0, 0, 0.7);
       opacity: 0.9; }
       .hero.is-warning .tabs a:hover, .hero.caution .tabs a:hover, .hero.warning .tabs a:hover, .versionchanged > p.hero .tabs a:hover {
         opacity: 1; }
-<<<<<<< HEAD
     .hero.is-warning .tabs li.is-active a, .hero.caution .tabs li.is-active a, .hero.warning .tabs li.is-active a, .versionchanged > p.hero .tabs li.is-active a {
-=======
-    .hero.is-warning .tabs li.is-active a, .hero.caution .tabs li.is-active a, .hero.warning .tabs li.is-active a {
       color: #ffe08a !important;
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
       opacity: 1; }
     .hero.is-warning .tabs.is-boxed a, .hero.caution .tabs.is-boxed a, .hero.warning .tabs.is-boxed a, .versionchanged > p.hero .tabs.is-boxed a, .hero.is-warning .tabs.is-toggle a, .hero.caution .tabs.is-toggle a, .hero.warning .tabs.is-toggle a, .versionchanged > p.hero .tabs.is-toggle a {
       color: rgba(0, 0, 0, 0.7); }
@@ -8286,21 +8053,12 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     .hero.is-warning .tabs.is-boxed li.is-active a, .hero.caution .tabs.is-boxed li.is-active a, .hero.warning .tabs.is-boxed li.is-active a, .versionchanged > p.hero .tabs.is-boxed li.is-active a, .hero.is-warning .tabs.is-boxed li.is-active a:hover, .hero.caution .tabs.is-boxed li.is-active a:hover, .hero.warning .tabs.is-boxed li.is-active a:hover, .versionchanged > p.hero .tabs.is-boxed li.is-active a:hover, .hero.is-warning .tabs.is-toggle li.is-active a, .hero.caution .tabs.is-toggle li.is-active a, .hero.warning .tabs.is-toggle li.is-active a, .versionchanged > p.hero .tabs.is-toggle li.is-active a, .hero.is-warning .tabs.is-toggle li.is-active a:hover, .hero.caution .tabs.is-toggle li.is-active a:hover, .hero.warning .tabs.is-toggle li.is-active a:hover, .versionchanged > p.hero .tabs.is-toggle li.is-active a:hover {
       background-color: rgba(0, 0, 0, 0.7);
       border-color: rgba(0, 0, 0, 0.7);
-<<<<<<< HEAD
-      color: #ffdd57; }
-    .hero.is-warning.is-bold, .hero.is-bold.caution, .hero.is-bold.warning, .versionchanged > p.hero.is-bold {
-      background-image: linear-gradient(141deg, #ffaf24 0%, #ffdd57 71%, #fffa70 100%); }
-      @media screen and (max-width: 768px) {
-        .hero.is-warning.is-bold .navbar-menu, .hero.is-bold.caution .navbar-menu, .hero.is-bold.warning .navbar-menu, .versionchanged > p.hero.is-bold .navbar-menu {
-          background-image: linear-gradient(141deg, #ffaf24 0%, #ffdd57 71%, #fffa70 100%); } }
-=======
       color: #ffe08a; }
-    .hero.is-warning.is-bold, .hero.is-bold.caution, .hero.is-bold.warning {
+    .hero.is-warning.is-bold, .hero.is-bold.caution, .hero.is-bold.warning, .versionchanged > p.hero.is-bold {
       background-image: linear-gradient(141deg, #ffb657 0%, #ffe08a 71%, #fff6a3 100%); }
       @media screen and (max-width: 768px) {
-        .hero.is-warning.is-bold .navbar-menu, .hero.is-bold.caution .navbar-menu, .hero.is-bold.warning .navbar-menu {
+        .hero.is-warning.is-bold .navbar-menu, .hero.is-bold.caution .navbar-menu, .hero.is-bold.warning .navbar-menu, .versionchanged > p.hero.is-bold .navbar-menu {
           background-image: linear-gradient(141deg, #ffb657 0%, #ffe08a 71%, #fff6a3 100%); } }
->>>>>>> 7980c99aa4fef2f98d63065a732d7aada4707dd4
   .hero.is-danger, .hero.attention, .hero.danger, .hero.error {
     background-color: #f14668;
     color: #fff; }
@@ -8627,7 +8385,7 @@ span.brackets {
 .admonition > *:last-child {
   padding-bottom: 1em; }
 
-.versionchanged > span {
+.versionchanged > p > span {
   font-style: italic; }
 
 td {
