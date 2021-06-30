@@ -226,7 +226,11 @@ td {
       overflow-wrap: break-word;
   }
 }
-code {background: transparent;}
+code {
+	background: transparent;
+	color: #202764;
+	font-weight: bold;
+}
 @include until($tablet) {
 	div.section { 
 		padding: 1rem 0.5rem;
@@ -261,7 +265,7 @@ code {background: transparent;}
         & > dd {
             border-bottom: 1px solid darkgrey;
             // &:first-child {border-top: 1px solid darkgrey;}
-            margin: 0;
+            //margin: 0;
             padding-bottom: 0;
         }
     }
