@@ -1,6 +1,9 @@
 
 .localtoc {
     padding: $sidebar-menu-padding;
+	& > div.menu-list {
+		font-size: 90%;
+	}
 }
 .sidebar-menu {
     padding: $sidebar-menu-padding;

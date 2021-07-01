@@ -241,6 +241,7 @@ code {
 	background: transparent;
 	color: #202764;
 	font-weight: bold;
+	padding: 0;
 }
 @include until($tablet) {
 	div.section { 
