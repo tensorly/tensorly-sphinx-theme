@@ -73,14 +73,14 @@
 
       {% include 'footer.html' %}
 
-    </div>
+    </div> {# Column main-column #}
 
 	{% if  meta is defined and not (meta is not none and 'no-localtoc' in meta) %}
     {% include 'localtoc.html' %}
     {% endif %}
 
-  </div>
-  </div>
+  </div> {# Columns #}
+  </div> {# Column container #}
 
   <!-- Include here scripts that need to be added after the page is loaded -->
   <script>
