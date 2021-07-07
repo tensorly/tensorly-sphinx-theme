@@ -5,7 +5,11 @@
         <!-- Always displayed, last item has to be navbar-burger -->
 
           <a class="navbar-item" href="{{ pathto(master_doc) }}">
+			{% if logo %}
             <img src="{{ pathto('_static/' + logo, 1) }}" height="28">
+			{% else %}
+			{{ project }}
+			{% endif %}
           </a>
 
           <!-- <a class="navbar-item is-hidden-desktop" href="{{pathto(master_doc)}}">
@@ -77,3 +81,4 @@
       
     </navbar>
   </header>
+
