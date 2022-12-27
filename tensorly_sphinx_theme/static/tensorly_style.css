@@ -8401,7 +8401,7 @@ span.brackets {
 
 .footnote, .citation {
   grid-template-columns: fit-content(5%) auto;
-  padding: 1em; }
+  padding-left: 1em; }
   .footnote dt.label, .citation dt.label {
     float: left; }
 
