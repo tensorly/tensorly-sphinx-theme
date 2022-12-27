@@ -105,8 +105,7 @@ $sidebar-menu-padding: 2em 0em 1em 0em; // top right bottom left
     min-width: 0;
 }
 .main-content {
-    padding: 0.5em;
-	padding-left: 1rem;
+	padding: 1rem;
 }
 body {
 	overflow-wrap: break-word;
@@ -168,8 +167,9 @@ span.brackets {
     &:after {content: "]"; }
 }
 .footnote, .citation {
+    @extend .columns;
     dt.label { float: left;}
-    display: grid;
+    // display: grid;
     grid-template-columns: fit-content(5%) auto;
     padding-left: 1em;
 }
