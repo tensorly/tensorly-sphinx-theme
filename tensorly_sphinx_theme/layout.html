@@ -40,49 +40,50 @@
 {% block content %}
   <div id="column-container">
   <div class="columns is-mobile is-centered">
-	{% if  meta is defined and not (meta is not none and 'no-toc' in meta) %}
+	
+  {% if  meta is defined and not (meta is not none and 'no-toc' in meta) %}
     {# Menu side navbar #}
     {%- include "sidebar-menu.html" %}
   {% endif %}
 
-    <div class="column main-column">
+  <div class="column main-column">
 
-      <!-- Main content  -->
-      <section class="main-section">
+    {# Main content #}
+    <div class="main-section">
 
-        <!-- Toggle menu button -->
-		{% if  meta is defined and not (meta is not none and 'no-toc' in meta) %}
-        <div class="side-menu-toggle">
-          <button class="button" id="toggle-sidebar" onclick="toggle_sidebar()">
-            <span class="icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
-            <span>menu</span> 
-          </button>
-        </div>
-        {% endif %}
+      {# Toogle menu button #}
+      {% if  meta is defined and not (meta is not none and 'no-toc' in meta) %}
+      <div class="side-menu-toggle">
+        <button class="button" id="toggle-sidebar" onclick="toggle_sidebar()">
+          <span class="icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+          <span>menu</span> 
+        </button>
+      </div>
+      {% endif %}
 
-        <div class="content main-content">
-          {% block body %}
-          {% endblock %}
-        </div>
+      <div class="container content main-content">
+        {% block body %}
+        {% endblock %}
+      </div>
 
-		{% if  meta is defined and not (meta is not none and 'no-pagination' in meta) %}
+      {% if  meta is defined and not (meta is not none and 'no-pagination' in meta) %}
         {% include 'pagination.html' %}
-        {% endif %}
-
-      </section>
+      {% endif %}
 
       {% include 'footer.html' %}
 
-    </div> {# Column main-column #}
+    </div>
+
+  </div> {# Column main-column #} 
 
 	{% if  meta is defined and not (meta is not none and 'no-localtoc' in meta) %}
     {% include 'localtoc.html' %}
-    {% endif %}
+  {% endif %}
 
-  </div> {# Columns #}
+  </div> {# Columns #} 
   </div> {# Column container #}
 
-  <!-- Include here scripts that need to be added after the page is loaded -->
+  {# Include here scripts that need to be added after the page is loaded #}
   <script>
     function toggle_sidebar() {
         var element = document.getElementById("sidebar");

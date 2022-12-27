@@ -2,19 +2,16 @@
     <navbar>
       <nav class="navbar top-navbar is-fixed-top has-shadow is-flex-wrap-wrap" role="navigation" aria-label="main top navigation">
         <div class="navbar-brand">
-        <!-- Always displayed, last item has to be navbar-burger -->
+        {# Always displayed, last item has to be navbar-burger  #}
 
           <a class="navbar-item" href="{{ pathto(master_doc) }}">
-			{% if logo %}
+			      {% if logo %}
             <img src="{{ pathto('_static/' + logo, 1) }}" height="28">
-			{% else %}
-			{{ project }}
-			{% endif %}
+            {% else %}
+            {{ project }}
+            {% endif %}
           </a>
 
-          <!-- <a class="navbar-item is-hidden-desktop" href="{{pathto(master_doc)}}">
-            <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
-          </a> -->
           {%- if theme_github_url %}
           <a class="navbar-item is-hidden-desktop" href="{{theme_github_url}}" target="_blank">
               <span class="icon"><i class="fab fa-github"></i></span>
@@ -30,10 +27,10 @@
         </div>
         
         <div class="navbar-menu" id="top-nav-menu">
-        <!-- only on larger displays (> 1024px) -->
+        {# only on larger displays (> 1024px)  #}
 
           <div class="navbar-start">
-          <!-- RIGHT -->
+            {# RIGHT  #}
 
             {%- for (name, link) in theme_nav_links %}
             <a class="navbar-item" href="{{pathto(link)}}">
@@ -50,17 +47,8 @@
         
           <div class="navbar-end">
             <div class="navbar-item">
-            <!-- LEFT -->
+            {# LEFT #}
 
-            <!-- <a class="navbar-item is-hidden-touch" href="{{pathto(master_doc)}}">
-              <span class="icon-text">
-                <span class="icon">
-                  <i class="fa fa-home"></i>
-                </span>
-                <span>Home</span>
-              </span>
-              <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
-            </a> -->
             {%- if theme_github_url %}
             <a class="button is-hidden-touch is-dark" href="{{theme_github_url}}" target="_blank">
               <span class="icon-text">
@@ -69,13 +57,12 @@
                 </span>
                 <span>Github</span>
               </span>
-                <!-- <span class="icon"><i class="fab fa-github"></i></span> -->
             </a>
             {%- endif %}
 
-            </div> <!-- navbar item -->
-          </div> <!-- navbar end -->
-        </div> <!-- only large items -->
+            </div> {# navbar item #}
+          </div> {# navbar end #}
+        </div> {# only large items #}
 
       </nav>
       

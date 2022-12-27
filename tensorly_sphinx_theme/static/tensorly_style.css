@@ -1,4 +1,4 @@
-/*! bulma.io v0.9.3 | MIT License | github.com/jgthms/bulma */
+/*! bulma.io v0.9.4 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
 .button, .input, .textarea, .select select, .file-cta,
 .file-name, .pagination-previous,
@@ -486,7 +486,7 @@ a.box:active {
     .button.is-white[disabled],
     fieldset[disabled] .button.is-white {
       background-color: white;
-      border-color: transparent;
+      border-color: white;
       box-shadow: none; }
     .button.is-white.is-inverted {
       background-color: #0a0a0a;
@@ -554,7 +554,7 @@ a.box:active {
     .button.is-black[disabled],
     fieldset[disabled] .button.is-black {
       background-color: #0a0a0a;
-      border-color: transparent;
+      border-color: #0a0a0a;
       box-shadow: none; }
     .button.is-black.is-inverted {
       background-color: white;
@@ -622,7 +622,7 @@ a.box:active {
     .button.is-light[disabled],
     fieldset[disabled] .button.is-light {
       background-color: whitesmoke;
-      border-color: transparent;
+      border-color: whitesmoke;
       box-shadow: none; }
     .button.is-light.is-inverted {
       background-color: rgba(0, 0, 0, 0.7);
@@ -692,7 +692,7 @@ a.box:active {
     fieldset[disabled] .button.note,
     fieldset[disabled] blockquote.button {
       background-color: #363636;
-      border-color: transparent;
+      border-color: #363636;
       box-shadow: none; }
     .button.is-dark.is-inverted, .button.is-inverted.note, blockquote.button.is-inverted {
       background-color: #fff;
@@ -767,7 +767,7 @@ a.box:active {
     fieldset[disabled] .button.is-primary,
     fieldset[disabled] .button.hint {
       background-color: #00d1b2;
-      border-color: transparent;
+      border-color: #00d1b2;
       box-shadow: none; }
     .button.is-primary.is-inverted, .button.is-inverted.hint {
       background-color: #fff;
@@ -850,7 +850,7 @@ a.box:active {
     fieldset[disabled] .button.is-link,
     fieldset[disabled] .button.important {
       background-color: #485fc7;
-      border-color: transparent;
+      border-color: #485fc7;
       box-shadow: none; }
     .button.is-link.is-inverted, .button.is-inverted.important {
       background-color: #fff;
@@ -934,7 +934,7 @@ a.box:active {
     fieldset[disabled] .button.tip,
     fieldset[disabled] .button.info {
       background-color: #3e8ed0;
-      border-color: transparent;
+      border-color: #3e8ed0;
       box-shadow: none; }
     .button.is-info.is-inverted, .button.is-inverted.tip, .button.is-inverted.info {
       background-color: #fff;
@@ -1019,7 +1019,7 @@ a.box:active {
     .button.is-success[disabled],
     fieldset[disabled] .button.is-success {
       background-color: #48c78e;
-      border-color: transparent;
+      border-color: #48c78e;
       box-shadow: none; }
     .button.is-success.is-inverted {
       background-color: #fff;
@@ -1101,7 +1101,7 @@ a.box:active {
     fieldset[disabled] .button.warning,
     fieldset[disabled] .versionchanged > p.button {
       background-color: #ffe08a;
-      border-color: transparent;
+      border-color: #ffe08a;
       box-shadow: none; }
     .button.is-warning.is-inverted, .button.is-inverted.caution, .button.is-inverted.warning, .versionchanged > p.button.is-inverted {
       background-color: rgba(0, 0, 0, 0.7);
@@ -1192,7 +1192,7 @@ a.box:active {
     fieldset[disabled] .button.danger,
     fieldset[disabled] .button.error {
       background-color: #f14668;
-      border-color: transparent;
+      border-color: #f14668;
       box-shadow: none; }
     .button.is-danger.is-inverted, .button.is-inverted.attention, .button.is-inverted.danger, .button.is-inverted.error {
       background-color: #fff;
@@ -1347,6 +1347,28 @@ a.box:active {
     .buttons.is-right:not(.has-addons) .button:not(.is-fullwidth) {
       margin-left: 0.25rem;
       margin-right: 0.25rem; }
+
+@media screen and (max-width: 768px) {
+  .button.is-responsive.is-small {
+    font-size: 0.5625rem; }
+  .button.is-responsive,
+  .button.is-responsive.is-normal {
+    font-size: 0.65625rem; }
+  .button.is-responsive.is-medium {
+    font-size: 0.75rem; }
+  .button.is-responsive.is-large {
+    font-size: 1rem; } }
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .button.is-responsive.is-small {
+    font-size: 0.65625rem; }
+  .button.is-responsive,
+  .button.is-responsive.is-normal {
+    font-size: 0.75rem; }
+  .button.is-responsive.is-medium {
+    font-size: 1rem; }
+  .button.is-responsive.is-large {
+    font-size: 1.25rem; } }
 
 .container {
   flex-grow: 1;
@@ -1926,7 +1948,7 @@ div.icon-text {
   .table th {
     color: #363636; }
     .table th:not([align]) {
-      text-align: inherit; }
+      text-align: left; }
   .table tr.is-selected {
     background-color: #00d1b2;
     color: #fff; }
@@ -2497,7 +2519,8 @@ a.tag:hover {
   .select.is-large {
     font-size: 1.5rem; }
   .select.is-disabled::after {
-    border-color: #7a7a7a; }
+    border-color: #7a7a7a !important;
+    opacity: 0.5; }
   .select.is-fullwidth {
     width: 100%; }
     .select.is-fullwidth select {
@@ -4312,6 +4335,11 @@ body.has-navbar-fixed-bottom {
 
 .navbar-burger {
   color: #4a4a4a;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background: none;
+  border: none;
   cursor: pointer;
   display: block;
   height: 4rem;
@@ -4655,9 +4683,11 @@ a.navbar-item,
   .pagination-next:active,
   .pagination-link:active {
     box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2); }
-  .pagination-previous[disabled],
+  .pagination-previous[disabled], .pagination-previous.is-disabled,
   .pagination-next[disabled],
-  .pagination-link[disabled] {
+  .pagination-next.is-disabled,
+  .pagination-link[disabled],
+  .pagination-link.is-disabled {
     background-color: #dbdbdb;
     border-color: #dbdbdb;
     box-shadow: none;
