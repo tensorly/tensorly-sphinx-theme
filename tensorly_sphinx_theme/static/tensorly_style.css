@@ -8226,8 +8226,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .localtoc {
   padding: 2em 0em 1em 0em; }
-  .localtoc > div.menu-list {
-    font-size: 90%; }
+
+.localtoc-list {
+  font-size: 85%; }
 
 .sidebar-menu {
   padding: 2em 0em 1em 0em;
