@@ -42,7 +42,20 @@
               {{name}}
             </a>
             {%- endfor %}
-
+            {%- if theme_external_nav_links_dropdown_title %}
+            <div class="navbar-item has-dropdown is-hoverable is-boxed">
+              <a class="navbar-link">
+                {{theme_external_nav_links_dropdown_title}}
+              </a>
+              <div class="navbar-dropdown top-navbar">
+                {%- for (name, link) in theme_external_nav_links_dropdown %}
+                <a class="navbar-item" href="{{link}}" target="_blank">
+                  {{name}}
+                </a>
+                {%- endfor %}
+              </div>
+            </div>
+            {%- endif %}
           </div>
         
           <div class="navbar-end">
