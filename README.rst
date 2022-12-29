@@ -47,8 +47,11 @@ The options are:
 * `'google_analytics'` : str, your Google analytics ID, if any.
 * `'nav_links'` :  tuple list, a list of ('Link display name', 'local.file'), contains the links to the local documentation, in the top navigation bar.
 * `'external_nav_links'` : same as above but contains external links.
+* `'external_nav_links_dropdown'` : same as above but contains multiple links in a dropdown. 
+   In that case, `'external_nav_links_dropdown_title'` indicates the text of the dropdown button.
 
-Example:
+
+**Example:**
 
 .. code:: rst
 
@@ -57,17 +60,21 @@ Example:
         'nav_links' : [('Install', 'installation'), 
                     ('User Guide', 'user_guide/index')]
         'external_nav_links' : [('TensorLy', 'https://github.com/tensorly/tensorly'),
-                                ('TensorLy-Torch', 'https://github.com/tensorly/torch')]
-    }
+                                ('TensorLy-Torch', 'https://github.com/tensorly/torch')],
+        'external_nav_links_dropdown_title': 'LinksInDropdown',
+        'external_nav_links_dropdown' : [('TensorLy', 'http://tensorly.org/dev'),
+                                         ('TensorLy-Viz', 'http://tensorly.org/viz'),
+                                         ('TensorLy-Quantum', 'http://tensorly.org/quantum')],
+}
 
 
 In rst files
 ------------
 
-In your documentation itself, you can use `no-toc`, :no-localtoc: and `no-pagination` 
+In your documentation itself, you can use ``:no-toc:``, ``:no-localtoc:`` and ``:no-pagination:``
 to remove the side-menu's table of content (toc), local toc ("on this page") 
 and pagination buttons, respectively.
-For instance, if you don't want `file.rst` to have a toc, simply add in the file:
+For instance, if you don't want ``file.rst`` to have a toc, simply add in the file:
 
 .. code::
 
