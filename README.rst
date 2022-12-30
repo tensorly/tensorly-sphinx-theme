@@ -64,7 +64,7 @@ The options are:
                                                ('TensorLy-Viz', 'http://tensorly.org/viz'),
                                                ('TensorLy-Quantum', 'http://tensorly.org/quantum')]
                           )],
-}
+    }
 
 
 In rst files
