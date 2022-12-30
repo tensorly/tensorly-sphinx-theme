@@ -46,9 +46,8 @@ The options are:
 
 * `'google_analytics'` : str, your Google analytics ID, if any.
 * `'nav_links'` :  tuple list, a list of ('Link display name', 'local.file'), contains the links to the local documentation, in the top navigation bar.
-* `'external_nav_links'` : same as above but contains external links.
-* `'external_nav_links_dropdown'` : same as above but contains multiple links in a dropdown. 
-   In that case, `'external_nav_links_dropdown_title'` indicates the text of the dropdown button.
+                   if the link starts with 'http', it will be considered as an external link.
+* `'nav_dropdowns'` : same as above but contains multiple links in a dropdown. 
 
 
 **Example:**
@@ -58,13 +57,13 @@ The options are:
     html_theme_options = {
         'google_analytics' : 'YOUR_GOOGLE_ANALYTICS_ID',
         'nav_links' : [('Install', 'installation'), 
-                    ('User Guide', 'user_guide/index')]
-        'external_nav_links' : [('TensorLy', 'https://github.com/tensorly/tensorly'),
-                                ('TensorLy-Torch', 'https://github.com/tensorly/torch')],
-        'external_nav_links_dropdown_title': 'LinksInDropdown',
-        'external_nav_links_dropdown' : [('TensorLy', 'http://tensorly.org/dev'),
-                                         ('TensorLy-Viz', 'http://tensorly.org/viz'),
-                                         ('TensorLy-Quantum', 'http://tensorly.org/quantum')],
+                       ('User Guide', 'user_guide/index'),
+                       ('TensorLy', 'https://github.com/tensorly/tensorly'),
+                       ('TensorLy-Torch', 'https://github.com/tensorly/torch')],
+        'nav_dropdowns': [('LinksInDropdown', [('TensorLy', 'http://tensorly.org/dev'),
+                                               ('TensorLy-Viz', 'http://tensorly.org/viz'),
+                                               ('TensorLy-Quantum', 'http://tensorly.org/quantum')]
+                          )],
 }
 
 

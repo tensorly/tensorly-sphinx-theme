@@ -33,28 +33,33 @@
             {# RIGHT  #}
 
             {%- for (name, link) in theme_nav_links %}
-            <a class="navbar-item" href="{{pathto(link)}}">
+              {%- if link.startswith('http') %}
+              <a class="navbar-item" href="{{link}}" target="_blank">
+              {%- else %}
+              <a class="navbar-item" href="{{pathto(link)}}">
+              {%- endif %}
               {{name}}
             </a>
             {%- endfor %}
-            {%- for (name, link) in theme_external_nav_links %}
-            <a class="navbar-item" href="{{link}}" target="_blank">
-              {{name}}
-            </a>
-            {%- endfor %}
-            {%- if theme_external_nav_links_dropdown_title %}
+            {%- if theme_nav_dropdowns %}
+            {%- for (dropdown_title, dropdown_links) in theme_nav_dropdowns %}
             <div class="navbar-item has-dropdown is-hoverable is-boxed">
               <a class="navbar-link">
-                {{theme_external_nav_links_dropdown_title}}
+                {{dropdown_title}}
               </a>
               <div class="navbar-dropdown top-navbar">
-                {%- for (name, link) in theme_external_nav_links_dropdown %}
+              {%- for (name, link) in dropdown_links %}
+                {%- if link.startswith('http') %}
                 <a class="navbar-item" href="{{link}}" target="_blank">
+                {%- else %}
+                <a class="navbar-item" href="{{pathto(link)}}" target="_blank">
+                {%- endif %}
                   {{name}}
                 </a>
-                {%- endfor %}
+              {%- endfor %}
               </div>
             </div>
+            {%- endfor %}
             {%- endif %}
           </div>
         
