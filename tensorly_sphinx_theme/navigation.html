@@ -5,11 +5,11 @@
         {# Always displayed, last item has to be navbar-burger  #}
 
           <a class="navbar-item" href="{{ pathto(master_doc) }}">
-			      {% if logo %}
+			      {%- if logo %}
             <img src="{{ pathto('_static/' + logo, 1) }}" height="28">
-            {% else %}
+            {%- else %}
             {{ project }}
-            {% endif %}
+            {%- endif %}
           </a>
 
           {%- if theme_github_url %}
