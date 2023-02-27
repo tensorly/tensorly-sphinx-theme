@@ -45,8 +45,7 @@ You can set most of the parameters in your sphinx configuration file (`conf.py`)
 The options are:
 
 * `'google_analytics'` : str, your Google analytics ID, if any.
-* `'nav_links'` :  tuple list, a list of ('Link display name', 'local.file'), contains the links to the local documentation, in the top navigation bar.
-                   if the link starts with 'http', it will be considered as an external link.
+* `'nav_links'` :  tuple list, a list of ('Link display name', 'local.file'), contains the links to the local documentation, in the top navigation bar. If the link starts with 'http', it will be considered as an external link.
 * `'nav_dropdowns'` : same as above but contains multiple links in a dropdown. 
 
 
